@@ -1,0 +1,11 @@
+{
+  "config_name": "PMSM_all_in",
+  "input_dim": 11,
+  "n_params": 417,
+  "architecture": "1\u00d732 tanh",
+  "test_mse_normalised": 0.002839762717485428,
+  "test_mae_celsius": 1.0075868368148804,
+  "test_rmse_celsius": 1.5129903554916382,
+  "test_max_abs_celsius": 11.18157958984375,
+  "test_r2": 0.9973211884498596
+}

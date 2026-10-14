@@ -1,0 +1,35 @@
+Method: ACTIV  |  Dataset: A_3d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/activ/A_3d/original_network.png
+Baseline  |  params=2273  |  test MSE=5.7787e-04
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/A_3d/after_pruning_sparsity_10.png
+     10.0%      2045    1.2614e-01    218.29x      0.302ms  ⚠
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/A_3d/after_pruning_sparsity_21.png
+     20.0%      1797    1.3232e-01    228.97x      0.298ms  ⚠
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/A_3d/after_pruning_sparsity_31.png
+     30.0%      1565    1.4373e-01    248.72x      0.300ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/A_3d/after_pruning_sparsity_42.png
+     40.0%      1323    1.5922e-01    275.52x      0.304ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/A_3d/after_pruning_sparsity_50.png
+     50.0%      1127    1.4347e-01    248.27x      0.298ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/activ/A_3d/

@@ -1,0 +1,6 @@
+Dataset: dataset_B
+Final Topology: [1, 2, 1]
+Final Test MSE: 0.17096103184030406
+Final Recon Loss: 0.9268631585385556
+Final Val  MSE:  0.16939301044771335
+Final Unnormalized Test MSE: 3.961972679078019

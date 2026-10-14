@@ -1,0 +1,8 @@
+{
+  "method": "struct",
+  "dataset": "D",
+  "sparsity_pct": 10.0,
+  "test_mse": 0.010423053987324238,
+  "param_count": 286,
+  "inference_ms": 0.0891
+}

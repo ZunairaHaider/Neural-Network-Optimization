@@ -1,0 +1,8 @@
+{
+  "method": "imp_rewind",
+  "dataset": "PMSM_no_temps_pm",
+  "sparsity_pct": 10.0,
+  "test_mse": 0.10065284371376038,
+  "param_count": 1268,
+  "inference_ms": 0.2281
+}

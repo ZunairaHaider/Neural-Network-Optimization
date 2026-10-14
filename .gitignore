@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.xlsx
+*.xls
+.DS_Store
+
+# Local-only engineering notes (not committed)
+*.local.md
+measures_v2.csv
+data/processed/dataset_PMSM_*.pt
+
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+Thumbs.db

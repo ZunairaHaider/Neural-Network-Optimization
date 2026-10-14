@@ -1,0 +1,8 @@
+{
+  "method": "lowrank",
+  "dataset": "D",
+  "sparsity_pct": 0.0,
+  "test_mse": 0.009774194099009037,
+  "param_count": 579,
+  "inference_ms": 0.0856
+}

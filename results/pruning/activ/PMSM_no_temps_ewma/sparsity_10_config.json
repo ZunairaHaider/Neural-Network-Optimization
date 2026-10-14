@@ -1,0 +1,8 @@
+{
+  "method": "activ",
+  "dataset": "PMSM_no_temps_ewma",
+  "sparsity_pct": 10.0,
+  "test_mse": 0.003542379941791296,
+  "param_count": 8291,
+  "inference_ms": 51.7416
+}

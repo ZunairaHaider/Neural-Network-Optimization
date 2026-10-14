@@ -1,0 +1,8 @@
+{
+  "method": "obs",
+  "dataset": "PMSM_no_temps_pm",
+  "sparsity_pct": 20.0,
+  "test_mse": 0.10406564176082611,
+  "param_count": 1127,
+  "inference_ms": 46.2351
+}

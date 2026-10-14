@@ -1,0 +1,8 @@
+{
+  "method": "obs",
+  "dataset": "PMSM_all_in_ewma",
+  "sparsity_pct": 10.0,
+  "test_mse": 0.0007853364804759622,
+  "param_count": 16013,
+  "inference_ms": 257.4746
+}

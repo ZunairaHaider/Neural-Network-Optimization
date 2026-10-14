@@ -1,0 +1,58 @@
+TANH-ONLY PIPELINE — comparison summary
+============================================================
+
+Dataset A
+  baseline:    25 params  MSE=1.2689e-05  (1x8 tanh)
+            obs:    22 params  MSE=1.3635e-05  (1.07x)  @ 10% sparsity
+        lowrank:    27 params  MSE=1.2692e-05  (1.00x)  @ 0% sparsity
+
+Dataset B
+  baseline:    13 params  MSE=3.9503e+00  (1x4 tanh)
+           snip:     6 params  MSE=4.9447e+00  (1.25x)  @ 50% sparsity
+            obd:     9 params  MSE=4.0612e+00  (1.03x)  @ 30% sparsity
+      taylor_fo:     9 params  MSE=4.0612e+00  (1.03x)  @ 30% sparsity
+     imp_rewind:     9 params  MSE=4.9361e+00  (1.25x)  @ 30% sparsity
+            obs:    10 params  MSE=4.0759e+00  (1.03x)  @ 20% sparsity
+            mag:    11 params  MSE=3.9775e+00  (1.01x)  @ 10% sparsity
+     redundancy:    11 params  MSE=3.9775e+00  (1.01x)  @ 10% sparsity
+        lowrank:    15 params  MSE=3.9504e+00  (1.00x)  @ 0% sparsity
+
+Dataset A_2d
+  baseline:    65 params  MSE=2.4704e-05  (1x16 tanh)
+            obs:    45 params  MSE=2.7240e-05  (1.10x)  @ 30% sparsity
+      taylor_fo:    58 params  MSE=2.6263e-05  (1.06x)  @ 10% sparsity
+        lowrank:    70 params  MSE=2.4695e-05  (1.00x)  @ 0% sparsity
+
+Dataset A_3d
+  baseline:  2273 params  MSE=5.7787e-04  (3x32 tanh)
+
+Dataset B_2d
+  baseline:    17 params  MSE=2.7433e+01  (1x4 tanh)
+            obd:     8 params  MSE=3.9921e+01  (1.46x)  @ 50% sparsity
+      taylor_fo:     8 params  MSE=4.0324e+01  (1.47x)  @ 50% sparsity
+            obs:    10 params  MSE=3.7611e+01  (1.37x)  @ 40% sparsity
+     imp_rewind:    11 params  MSE=4.0355e+01  (1.47x)  @ 30% sparsity
+           snip:    12 params  MSE=4.0346e+01  (1.47x)  @ 30% sparsity
+            mag:    13 params  MSE=4.0574e+01  (1.48x)  @ 20% sparsity
+         struct:    13 params  MSE=3.6303e+01  (1.32x)  @ 10% sparsity
+          activ:    13 params  MSE=3.6303e+01  (1.32x)  @ 10% sparsity
+     redundancy:    15 params  MSE=3.6807e+01  (1.34x)  @ 10% sparsity
+        lowrank:    22 params  MSE=2.7433e+01  (1.00x)  @ 0% sparsity
+
+Dataset B_3d
+  baseline:    31 params  MSE=6.2281e+02  (1x6 tanh)
+            obd:     9 params  MSE=8.4762e+02  (1.36x)  @ 70% sparsity
+      taylor_fo:    12 params  MSE=6.3197e+02  (1.01x)  @ 60% sparsity
+            obs:    15 params  MSE=8.0411e+02  (1.29x)  @ 50% sparsity
+          activ:    26 params  MSE=6.2478e+02  (1.00x)  @ 10% sparsity
+            mag:    27 params  MSE=8.9183e+02  (1.43x)  @ 10% sparsity
+        lowrank:    41 params  MSE=6.2281e+02  (1.00x)  @ 0% sparsity
+
+Dataset D
+  baseline:    13 params  MSE=9.3099e-03  (1x4 tanh)
+         struct:     7 params  MSE=1.3304e-02  (1.43x)  @ 40% sparsity
+            obd:     9 params  MSE=1.2275e-02  (1.32x)  @ 30% sparsity
+            obs:    10 params  MSE=1.0961e-02  (1.18x)  @ 20% sparsity
+          activ:    10 params  MSE=1.0900e-02  (1.17x)  @ 10% sparsity
+      taylor_fo:    10 params  MSE=1.2022e-02  (1.29x)  @ 20% sparsity
+        lowrank:    15 params  MSE=9.3098e-03  (1.00x)  @ 0% sparsity

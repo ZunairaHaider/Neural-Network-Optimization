@@ -1,0 +1,25 @@
+method,method_type,dataset,n_params,test_mse,mse_ratio,topology_desc,note
+baseline,baseline,A,321,0.00019349678768776357,1.0,"2 hidden layers, 16 neurons/layer, relu","ReLU, Adam, HPO"
+obd,weight-removal,A,256,0.00020894,1.0798112077041628,"pruned, sparsity=20.0%",best sparsity checkpoint
+obs,weight-removal,A,192,0.00018799,0.9715406764444606,"pruned, sparsity=40.0%",best sparsity checkpoint
+mag,weight-removal,A,192,0.00014998,0.7751033068415352,"pruned, sparsity=40.0%",best sparsity checkpoint
+struct,structured,A,192,0.00019727,1.019500128954725,"pruned, sparsity=40.0%",best sparsity checkpoint
+activ,structured,A,249,0.00020894,1.0798112077041628,"pruned, sparsity=20.0%",best sparsity checkpoint
+redundancy,structured,A,256,0.00024642,1.2735095137477739,"pruned, sparsity=20.0%",best sparsity checkpoint
+lowrank,low-rank,A,579,0.0001961,1.0134535169464265,"pruned, sparsity=0.0%",best sparsity checkpoint
+taylor_fo,weight-removal,A,256,0.00020894,1.0798112077041628,"pruned, sparsity=20.0%",best sparsity checkpoint
+snip,weight-removal,A,225,0.00044694,2.3098057871699944,"pruned, sparsity=30.0%",best sparsity checkpoint
+imp_rewind,weight-removal,A,256,0.00049352,2.550533297722593,"pruned, sparsity=20.0%",best sparsity checkpoint
+patent (topology search),patent,A,7,0.006831278155989722,35.30434917096932,"[1→2→1] tanh, from [1→h→1]",normalised targets — see scale note
+baseline,baseline,B,49,3.988626003265381,1.0,"1 hidden layers, 16 neurons/layer, relu","ReLU, Adam, HPO"
+obd,weight-removal,B,39,4.00920677,1.0051598637520214,"pruned, sparsity=20.0%",best sparsity checkpoint
+obs,weight-removal,B,29,3.98484707,0.999052572674829,"pruned, sparsity=40.0%",best sparsity checkpoint
+mag,weight-removal,B,19,3.9964242,1.0019551085331728,"pruned, sparsity=60.0%",best sparsity checkpoint
+struct,structured,B,22,3.97961521,0.9977408778717273,"pruned, sparsity=50.0%",best sparsity checkpoint
+activ,structured,B,43,4.01328325,1.006181889882489,"pruned, sparsity=10.0%",best sparsity checkpoint
+redundancy,structured,B,39,3.99272633,1.0010280048145057,"pruned, sparsity=20.0%",best sparsity checkpoint
+lowrank,low-rank,B,51,3.988626,0.9999999991813269,"pruned, sparsity=0.0%",best sparsity checkpoint
+taylor_fo,weight-removal,B,44,4.01328325,1.006181889882489,"pruned, sparsity=10.0%",best sparsity checkpoint
+snip,weight-removal,B,34,4.02920866,1.0101745956380457,"pruned, sparsity=30.0%",best sparsity checkpoint
+imp_rewind,weight-removal,B,14,3.97069883,0.995505426367199,"pruned, sparsity=70.0%",best sparsity checkpoint
+patent (topology search),patent,B,16,0.1610712880706339,0.04038265005010978,"[1→5→1] tanh, from [1→h→1]",normalised targets — see scale note

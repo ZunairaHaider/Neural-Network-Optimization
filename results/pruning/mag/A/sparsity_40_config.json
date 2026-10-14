@@ -1,0 +1,8 @@
+{
+  "method": "mag",
+  "dataset": "A",
+  "sparsity_pct": 40.0,
+  "test_mse": 0.00014995149103924632,
+  "param_count": 192,
+  "inference_ms": 0.0725
+}

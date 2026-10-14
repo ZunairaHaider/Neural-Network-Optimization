@@ -1,0 +1,8 @@
+{
+  "method": "mag",
+  "dataset": "PMSM_no_temps",
+  "sparsity_pct": 30.0,
+  "test_mse": 0.13575032353401184,
+  "param_count": 224,
+  "inference_ms": 0.0696
+}

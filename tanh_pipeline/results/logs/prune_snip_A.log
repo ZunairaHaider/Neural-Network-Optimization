@@ -1,0 +1,35 @@
+Method: SNIP  |  Dataset: A  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/snip/A/original_network.png
+Baseline  |  params=25  |  test MSE=1.2689e-05
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  [SNIP] Fine-tuning from masked init...
+Topology saved to tanh_pipeline/results/pruning/snip/A/after_pruning_sparsity_12.png
+     10.0%        22    5.6340e-01  44400.15x      0.131ms  ⚠
+
+── Target sparsity: 20% ──────────────────────
+  [SNIP] Fine-tuning from masked init...
+Topology saved to tanh_pipeline/results/pruning/snip/A/after_pruning_sparsity_20.png
+     20.0%        20    5.6239e-01  44320.58x      0.067ms  ⚠
+
+── Target sparsity: 30% ──────────────────────
+  [SNIP] Fine-tuning from masked init...
+Topology saved to tanh_pipeline/results/pruning/snip/A/after_pruning_sparsity_28.png
+     30.0%        18    6.3956e-01  50402.18x      0.357ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+  [SNIP] Fine-tuning from masked init...
+Topology saved to tanh_pipeline/results/pruning/snip/A/after_pruning_sparsity_40.png
+     40.0%        15    6.6200e-01  52170.52x      0.067ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  [SNIP] Fine-tuning from masked init...
+Topology saved to tanh_pipeline/results/pruning/snip/A/after_pruning_sparsity_52.png
+     50.0%        12    9.2577e-01  72958.19x      0.178ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/snip/A/

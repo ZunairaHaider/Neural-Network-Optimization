@@ -1,0 +1,12 @@
+{
+  "config_name": "PMSM_no_temps_pm_ewma",
+  "split_mode": "diversity",
+  "input_dim": 79,
+  "n_params": 76417,
+  "architecture": "5\u00d7128 gelu",
+  "test_mse_normalised": 0.0018302847165614367,
+  "test_mae_celsius": 0.7541694641113281,
+  "test_rmse_celsius": 1.1840845346450806,
+  "test_max_abs_celsius": 19.77294158935547,
+  "test_r2": 0.9984976053237915
+}

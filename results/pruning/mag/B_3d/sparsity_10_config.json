@@ -1,0 +1,8 @@
+{
+  "method": "mag",
+  "dataset": "B_3d",
+  "sparsity_pct": 10.0,
+  "test_mse": 627.9783325195312,
+  "param_count": 36,
+  "inference_ms": 0.0605
+}

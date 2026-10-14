@@ -1,0 +1,40 @@
+Method: REDUNDANCY  |  Dataset: A  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/redundancy/A/original_network.png
+Baseline  |  params=25  |  test MSE=1.2689e-05
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+[Redundancy] merged layers.0: 3 <- 6
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A/after_pruning_sparsity_12.png
+     10.0%        22    1.2214e-01   9625.32x      0.073ms  ⚠
+
+── Target sparsity: 20% ──────────────────────
+[Redundancy] merged layers.0: 3 <- 7
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A/after_pruning_sparsity_24.png
+     20.0%        19    7.2845e-01  57407.68x      0.067ms  ⚠
+
+── Target sparsity: 30% ──────────────────────
+[Redundancy] merged layers.0: 3 <- 1
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A/after_pruning_sparsity_32.png
+     30.0%        17    8.5317e-01  67236.46x      0.067ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+src/pruning/redundancy_pruning.py:235: UserWarning: No redundant pairs found.
+  warnings.warn(
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A/after_pruning_sparsity_40.png
+     40.0%        15    1.7378e+01  1369493.77x      0.067ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A/after_pruning_sparsity_52.png
+     50.0%        12    1.7325e+01  1365355.18x      0.066ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/redundancy/A/

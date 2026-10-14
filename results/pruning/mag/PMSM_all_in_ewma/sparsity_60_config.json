@@ -1,0 +1,8 @@
+{
+  "method": "mag",
+  "dataset": "PMSM_all_in_ewma",
+  "sparsity_pct": 60.0,
+  "test_mse": 0.0007927317637950182,
+  "param_count": 7117,
+  "inference_ms": 140.8718
+}

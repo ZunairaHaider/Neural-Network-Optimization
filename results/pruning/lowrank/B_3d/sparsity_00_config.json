@@ -1,0 +1,8 @@
+{
+  "method": "lowrank",
+  "dataset": "B_3d",
+  "sparsity_pct": 0.0,
+  "test_mse": 625.1383666992188,
+  "param_count": 67,
+  "inference_ms": 0.0594
+}

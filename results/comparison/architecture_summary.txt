@@ -1,0 +1,650 @@
+
+[OBD] (weight-removal) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   239 /   272 non-zero  (87.9%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[OBD] (weight-removal) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   208 /   272 non-zero  (76.5%)
+  layer  2 (16->1):    16 /    17 non-zero  (94.1%)
+
+[OBD] (weight-removal) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    29 /    32 non-zero  (90.6%)
+  layer  1 (16->16):   182 /   272 non-zero  (66.9%)
+  layer  2 (16->1):    13 /    17 non-zero  (76.5%)
+
+[OBD] (weight-removal) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    28 /    32 non-zero  (87.5%)
+  layer  1 (16->16):   151 /   272 non-zero  (55.5%)
+  layer  2 (16->1):    13 /    17 non-zero  (76.5%)
+
+[OBD] (weight-removal) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    26 /    32 non-zero  (81.2%)
+  layer  1 (16->16):   122 /   272 non-zero  (44.9%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[OBD] (weight-removal) Dataset A -- 60.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):    94 /   272 non-zero  (34.6%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[OBD] (weight-removal) Dataset A -- 70.0% sparsity
+  layer  0 (1->16):    21 /    32 non-zero  (65.6%)
+  layer  1 (16->16):    66 /   272 non-zero  (24.3%)
+  layer  2 (16->1):     9 /    17 non-zero  (52.9%)
+
+[OBD] (weight-removal) Dataset A -- 80.0% sparsity
+  layer  0 (1->16):    17 /    32 non-zero  (53.1%)
+  layer  1 (16->16):    39 /   272 non-zero  (14.3%)
+  layer  2 (16->1):     8 /    17 non-zero  (47.1%)
+
+[OBS] (weight-removal) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   239 /   272 non-zero  (87.9%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[OBS] (weight-removal) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   208 /   272 non-zero  (76.5%)
+  layer  2 (16->1):    16 /    17 non-zero  (94.1%)
+
+[OBS] (weight-removal) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    30 /    32 non-zero  (93.8%)
+  layer  1 (16->16):   180 /   272 non-zero  (66.2%)
+  layer  2 (16->1):    14 /    17 non-zero  (82.4%)
+
+[OBS] (weight-removal) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    29 /    32 non-zero  (90.6%)
+  layer  1 (16->16):   151 /   272 non-zero  (55.5%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[OBS] (weight-removal) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    27 /    32 non-zero  (84.4%)
+  layer  1 (16->16):   122 /   272 non-zero  (44.9%)
+  layer  2 (16->1):    11 /    17 non-zero  (64.7%)
+
+[OBS] (weight-removal) Dataset A -- 60.0% sparsity
+  layer  0 (1->16):    26 /    32 non-zero  (81.2%)
+  layer  1 (16->16):    92 /   272 non-zero  (33.8%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[OBS] (weight-removal) Dataset A -- 70.0% sparsity
+  layer  0 (1->16):    23 /    32 non-zero  (71.9%)
+  layer  1 (16->16):    63 /   272 non-zero  (23.2%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[OBS] (weight-removal) Dataset A -- 80.0% sparsity
+  layer  0 (1->16):    21 /    32 non-zero  (65.6%)
+  layer  1 (16->16):    33 /   272 non-zero  (12.1%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[OBS] (weight-removal) Dataset A -- 90.0% sparsity
+  layer  0 (1->16):    18 /    32 non-zero  (56.2%)
+  layer  1 (16->16):     5 /   272 non-zero  (1.8%)
+  layer  2 (16->1):     9 /    17 non-zero  (52.9%)
+
+[MAG] (weight-removal) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   239 /   272 non-zero  (87.9%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[MAG] (weight-removal) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   208 /   272 non-zero  (76.5%)
+  layer  2 (16->1):    16 /    17 non-zero  (94.1%)
+
+[MAG] (weight-removal) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    30 /    32 non-zero  (93.8%)
+  layer  1 (16->16):   180 /   272 non-zero  (66.2%)
+  layer  2 (16->1):    14 /    17 non-zero  (82.4%)
+
+[MAG] (weight-removal) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    27 /    32 non-zero  (84.4%)
+  layer  1 (16->16):   154 /   272 non-zero  (56.6%)
+  layer  2 (16->1):    11 /    17 non-zero  (64.7%)
+
+[MAG] (weight-removal) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   126 /   272 non-zero  (46.3%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[MAG] (weight-removal) Dataset A -- 60.0% sparsity
+  layer  0 (1->16):    22 /    32 non-zero  (68.8%)
+  layer  1 (16->16):    96 /   272 non-zero  (35.3%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[MAG] (weight-removal) Dataset A -- 70.0% sparsity
+  layer  0 (1->16):    17 /    32 non-zero  (53.1%)
+  layer  1 (16->16):    70 /   272 non-zero  (25.7%)
+  layer  2 (16->1):     9 /    17 non-zero  (52.9%)
+
+[STRUCT] (structured) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    30 /    32 non-zero  (93.8%)
+  layer  1 (16->16):   240 /   272 non-zero  (88.2%)
+  layer  2 (16->1):    16 /    17 non-zero  (94.1%)
+
+[STRUCT] (structured) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    26 /    32 non-zero  (81.2%)
+  layer  1 (16->16):   210 /   272 non-zero  (77.2%)
+  layer  2 (16->1):    16 /    17 non-zero  (94.1%)
+
+[STRUCT] (structured) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   182 /   272 non-zero  (66.9%)
+  layer  2 (16->1):    15 /    17 non-zero  (88.2%)
+
+[STRUCT] (structured) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    22 /    32 non-zero  (68.8%)
+  layer  1 (16->16):   156 /   272 non-zero  (57.4%)
+  layer  2 (16->1):    14 /    17 non-zero  (82.4%)
+
+[STRUCT] (structured) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    18 /    32 non-zero  (56.2%)
+  layer  1 (16->16):   120 /   272 non-zero  (44.1%)
+  layer  2 (16->1):    13 /    17 non-zero  (76.5%)
+
+[STRUCT] (structured) Dataset A -- 60.0% sparsity
+  layer  0 (1->16):    14 /    32 non-zero  (43.8%)
+  layer  1 (16->16):    96 /   272 non-zero  (35.3%)
+  layer  2 (16->1):    13 /    17 non-zero  (76.5%)
+
+[STRUCT] (structured) Dataset A -- 70.0% sparsity
+  layer  0 (1->16):    10 /    32 non-zero  (31.2%)
+  layer  1 (16->16):    66 /   272 non-zero  (24.3%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[ACTIV] (structured) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    28 /    32 non-zero  (87.5%)
+  layer  1 (16->16):   240 /   272 non-zero  (88.2%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[ACTIV] (structured) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   208 /   272 non-zero  (76.5%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[ACTIV] (structured) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   182 /   272 non-zero  (66.9%)
+  layer  2 (16->1):    15 /    17 non-zero  (88.2%)
+
+[ACTIV] (structured) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   143 /   272 non-zero  (52.6%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[ACTIV] (structured) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   117 /   272 non-zero  (43.0%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[ACTIV] (structured) Dataset A -- 60.0% sparsity
+  layer  0 (1->16):    22 /    32 non-zero  (68.8%)
+  layer  1 (16->16):    96 /   272 non-zero  (35.3%)
+  layer  2 (16->1):     9 /    17 non-zero  (52.9%)
+
+[ACTIV] (structured) Dataset A -- 70.0% sparsity
+  layer  0 (1->16):    22 /    32 non-zero  (68.8%)
+  layer  1 (16->16):    60 /   272 non-zero  (22.1%)
+  layer  2 (16->1):     6 /    17 non-zero  (35.3%)
+
+[REDUNDANCY] (structured) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    31 /    32 non-zero  (96.9%)
+  layer  1 (16->16):   240 /   272 non-zero  (88.2%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[REDUNDANCY] (structured) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    30 /    32 non-zero  (93.8%)
+  layer  1 (16->16):   210 /   272 non-zero  (77.2%)
+  layer  2 (16->1):    16 /    17 non-zero  (94.1%)
+
+[REDUNDANCY] (structured) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    28 /    32 non-zero  (87.5%)
+  layer  1 (16->16):   182 /   272 non-zero  (66.9%)
+  layer  2 (16->1):    14 /    17 non-zero  (82.4%)
+
+[REDUNDANCY] (structured) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   157 /   272 non-zero  (57.7%)
+  layer  2 (16->1):    11 /    17 non-zero  (64.7%)
+
+[REDUNDANCY] (structured) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    21 /    32 non-zero  (65.6%)
+  layer  1 (16->16):   129 /   272 non-zero  (47.4%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[REDUNDANCY] (structured) Dataset A -- 60.0% sparsity
+  layer  0 (1->16):    20 /    32 non-zero  (62.5%)
+  layer  1 (16->16):    98 /   272 non-zero  (36.0%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[REDUNDANCY] (structured) Dataset A -- 70.0% sparsity
+  layer  0 (1->16):    17 /    32 non-zero  (53.1%)
+  layer  1 (16->16):    69 /   272 non-zero  (25.4%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[LOWRANK] (low-rank) Dataset A -- 0.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   272 /   272 non-zero  (100.0%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[LOWRANK] (low-rank) Dataset A -- 11.1% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   272 /   272 non-zero  (100.0%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    26 /    32 non-zero  (81.2%)
+  layer  1 (16->16):   245 /   272 non-zero  (90.1%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   215 /   272 non-zero  (79.0%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   183 /   272 non-zero  (67.3%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   151 /   272 non-zero  (55.5%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):   119 /   272 non-zero  (43.8%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 60.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->16):    92 /   272 non-zero  (33.8%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 70.0% sparsity
+  layer  0 (1->16):    20 /    32 non-zero  (62.5%)
+  layer  1 (16->16):    68 /   272 non-zero  (25.0%)
+  layer  2 (16->1):     8 /    17 non-zero  (47.1%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 80.0% sparsity
+  layer  0 (1->16):    16 /    32 non-zero  (50.0%)
+  layer  1 (16->16):    42 /   272 non-zero  (15.4%)
+  layer  2 (16->1):     6 /    17 non-zero  (35.3%)
+
+[TAYLOR_FO] (weight-removal) Dataset A -- 90.0% sparsity
+  layer  0 (1->16):    12 /    32 non-zero  (37.5%)
+  layer  1 (16->16):    15 /   272 non-zero  (5.5%)
+  layer  2 (16->1):     5 /    17 non-zero  (29.4%)
+
+[SNIP] (weight-removal) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   245 /   272 non-zero  (90.1%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[SNIP] (weight-removal) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   213 /   272 non-zero  (78.3%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[SNIP] (weight-removal) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   181 /   272 non-zero  (66.5%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[SNIP] (weight-removal) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    28 /    32 non-zero  (87.5%)
+  layer  1 (16->16):   153 /   272 non-zero  (56.2%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[SNIP] (weight-removal) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    25 /    32 non-zero  (78.1%)
+  layer  1 (16->16):   123 /   272 non-zero  (45.2%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[IMP_REWIND] (weight-removal) Dataset A -- 10.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->16):   239 /   272 non-zero  (87.9%)
+  layer  2 (16->1):    17 /    17 non-zero  (100.0%)
+
+[IMP_REWIND] (weight-removal) Dataset A -- 20.0% sparsity
+  layer  0 (1->16):    30 /    32 non-zero  (93.8%)
+  layer  1 (16->16):   210 /   272 non-zero  (77.2%)
+  layer  2 (16->1):    16 /    17 non-zero  (94.1%)
+
+[IMP_REWIND] (weight-removal) Dataset A -- 30.0% sparsity
+  layer  0 (1->16):    29 /    32 non-zero  (90.6%)
+  layer  1 (16->16):   182 /   272 non-zero  (66.9%)
+  layer  2 (16->1):    13 /    17 non-zero  (76.5%)
+
+[IMP_REWIND] (weight-removal) Dataset A -- 40.0% sparsity
+  layer  0 (1->16):    27 /    32 non-zero  (84.4%)
+  layer  1 (16->16):   153 /   272 non-zero  (56.2%)
+  layer  2 (16->1):    12 /    17 non-zero  (70.6%)
+
+[IMP_REWIND] (weight-removal) Dataset A -- 50.0% sparsity
+  layer  0 (1->16):    26 /    32 non-zero  (81.2%)
+  layer  1 (16->16):   124 /   272 non-zero  (45.6%)
+  layer  2 (16->1):    10 /    17 non-zero  (58.8%)
+
+[OBD] (weight-removal) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    29 /    32 non-zero  (90.6%)
+  layer  1 (16->1):    15 /    17 non-zero  (88.2%)
+
+[OBD] (weight-removal) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    25 /    32 non-zero  (78.1%)
+  layer  1 (16->1):    14 /    17 non-zero  (82.4%)
+
+[OBD] (weight-removal) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    23 /    32 non-zero  (71.9%)
+  layer  1 (16->1):    11 /    17 non-zero  (64.7%)
+
+[OBD] (weight-removal) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    18 /    32 non-zero  (56.2%)
+  layer  1 (16->1):    11 /    17 non-zero  (64.7%)
+
+[OBD] (weight-removal) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    14 /    32 non-zero  (43.8%)
+  layer  1 (16->1):    10 /    17 non-zero  (58.8%)
+
+[OBD] (weight-removal) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    11 /    32 non-zero  (34.4%)
+  layer  1 (16->1):     8 /    17 non-zero  (47.1%)
+
+[OBD] (weight-removal) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):     7 /    32 non-zero  (21.9%)
+  layer  1 (16->1):     7 /    17 non-zero  (41.2%)
+
+[OBD] (weight-removal) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     5 /    32 non-zero  (15.6%)
+  layer  1 (16->1):     4 /    17 non-zero  (23.5%)
+
+[OBD] (weight-removal) Dataset B -- 90.0% sparsity
+  layer  0 (1->16):     3 /    32 non-zero  (9.4%)
+  layer  1 (16->1):     1 /    17 non-zero  (5.9%)
+
+[OBS] (weight-removal) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    29 /    32 non-zero  (90.6%)
+  layer  1 (16->1):    15 /    17 non-zero  (88.2%)
+
+[OBS] (weight-removal) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    26 /    32 non-zero  (81.2%)
+  layer  1 (16->1):    13 /    17 non-zero  (76.5%)
+
+[OBS] (weight-removal) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    21 /    32 non-zero  (65.6%)
+  layer  1 (16->1):    13 /    17 non-zero  (76.5%)
+
+[OBS] (weight-removal) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    16 /    32 non-zero  (50.0%)
+  layer  1 (16->1):    13 /    17 non-zero  (76.5%)
+
+[OBS] (weight-removal) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    14 /    32 non-zero  (43.8%)
+  layer  1 (16->1):    10 /    17 non-zero  (58.8%)
+
+[OBS] (weight-removal) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    12 /    32 non-zero  (37.5%)
+  layer  1 (16->1):     7 /    17 non-zero  (41.2%)
+
+[OBS] (weight-removal) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):     8 /    32 non-zero  (25.0%)
+  layer  1 (16->1):     6 /    17 non-zero  (35.3%)
+
+[OBS] (weight-removal) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     5 /    32 non-zero  (15.6%)
+  layer  1 (16->1):     4 /    17 non-zero  (23.5%)
+
+[MAG] (weight-removal) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    29 /    32 non-zero  (90.6%)
+  layer  1 (16->1):    15 /    17 non-zero  (88.2%)
+
+[MAG] (weight-removal) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    25 /    32 non-zero  (78.1%)
+  layer  1 (16->1):    14 /    17 non-zero  (82.4%)
+
+[MAG] (weight-removal) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    20 /    32 non-zero  (62.5%)
+  layer  1 (16->1):    14 /    17 non-zero  (82.4%)
+
+[MAG] (weight-removal) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    16 /    32 non-zero  (50.0%)
+  layer  1 (16->1):    13 /    17 non-zero  (76.5%)
+
+[MAG] (weight-removal) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    15 /    32 non-zero  (46.9%)
+  layer  1 (16->1):     9 /    17 non-zero  (52.9%)
+
+[MAG] (weight-removal) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    13 /    32 non-zero  (40.6%)
+  layer  1 (16->1):     6 /    17 non-zero  (35.3%)
+
+[MAG] (weight-removal) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):    10 /    32 non-zero  (31.2%)
+  layer  1 (16->1):     4 /    17 non-zero  (23.5%)
+
+[MAG] (weight-removal) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     6 /    32 non-zero  (18.8%)
+  layer  1 (16->1):     3 /    17 non-zero  (17.6%)
+
+[MAG] (weight-removal) Dataset B -- 90.0% sparsity
+  layer  0 (1->16):     2 /    32 non-zero  (6.2%)
+  layer  1 (16->1):     2 /    17 non-zero  (11.8%)
+
+[STRUCT] (structured) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    28 /    32 non-zero  (87.5%)
+  layer  1 (16->1):    15 /    17 non-zero  (88.2%)
+
+[STRUCT] (structured) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->1):    13 /    17 non-zero  (76.5%)
+
+[STRUCT] (structured) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    22 /    32 non-zero  (68.8%)
+  layer  1 (16->1):    12 /    17 non-zero  (70.6%)
+
+[STRUCT] (structured) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    18 /    32 non-zero  (56.2%)
+  layer  1 (16->1):    10 /    17 non-zero  (58.8%)
+
+[STRUCT] (structured) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    14 /    32 non-zero  (43.8%)
+  layer  1 (16->1):     8 /    17 non-zero  (47.1%)
+
+[STRUCT] (structured) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    12 /    32 non-zero  (37.5%)
+  layer  1 (16->1):     7 /    17 non-zero  (41.2%)
+
+[STRUCT] (structured) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):     8 /    32 non-zero  (25.0%)
+  layer  1 (16->1):     5 /    17 non-zero  (29.4%)
+
+[STRUCT] (structured) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     4 /    32 non-zero  (12.5%)
+  layer  1 (16->1):     3 /    17 non-zero  (17.6%)
+
+[STRUCT] (structured) Dataset B -- 90.0% sparsity
+  layer  0 (1->16):     2 /    32 non-zero  (6.2%)
+  layer  1 (16->1):     2 /    17 non-zero  (11.8%)
+
+[ACTIV] (structured) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    28 /    32 non-zero  (87.5%)
+  layer  1 (16->1):    15 /    17 non-zero  (88.2%)
+
+[ACTIV] (structured) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->1):    13 /    17 non-zero  (76.5%)
+
+[ACTIV] (structured) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    22 /    32 non-zero  (68.8%)
+  layer  1 (16->1):    12 /    17 non-zero  (70.6%)
+
+[ACTIV] (structured) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    18 /    32 non-zero  (56.2%)
+  layer  1 (16->1):    10 /    17 non-zero  (58.8%)
+
+[ACTIV] (structured) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    14 /    32 non-zero  (43.8%)
+  layer  1 (16->1):     8 /    17 non-zero  (47.1%)
+
+[ACTIV] (structured) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    12 /    32 non-zero  (37.5%)
+  layer  1 (16->1):     7 /    17 non-zero  (41.2%)
+
+[ACTIV] (structured) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):     8 /    32 non-zero  (25.0%)
+  layer  1 (16->1):     5 /    17 non-zero  (29.4%)
+
+[ACTIV] (structured) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     4 /    32 non-zero  (12.5%)
+  layer  1 (16->1):     3 /    17 non-zero  (17.6%)
+
+[ACTIV] (structured) Dataset B -- 90.0% sparsity
+  layer  0 (1->16):     2 /    32 non-zero  (6.2%)
+  layer  1 (16->1):     2 /    17 non-zero  (11.8%)
+
+[REDUNDANCY] (structured) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    29 /    32 non-zero  (90.6%)
+  layer  1 (16->1):    15 /    17 non-zero  (88.2%)
+
+[REDUNDANCY] (structured) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    25 /    32 non-zero  (78.1%)
+  layer  1 (16->1):    14 /    17 non-zero  (82.4%)
+
+[REDUNDANCY] (structured) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    20 /    32 non-zero  (62.5%)
+  layer  1 (16->1):    14 /    17 non-zero  (82.4%)
+
+[REDUNDANCY] (structured) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    17 /    32 non-zero  (53.1%)
+  layer  1 (16->1):    12 /    17 non-zero  (70.6%)
+
+[REDUNDANCY] (structured) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    13 /    32 non-zero  (40.6%)
+  layer  1 (16->1):    11 /    17 non-zero  (64.7%)
+
+[REDUNDANCY] (structured) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    11 /    32 non-zero  (34.4%)
+  layer  1 (16->1):     8 /    17 non-zero  (47.1%)
+
+[REDUNDANCY] (structured) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):     9 /    32 non-zero  (28.1%)
+  layer  1 (16->1):     5 /    17 non-zero  (29.4%)
+
+[REDUNDANCY] (structured) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     6 /    32 non-zero  (18.8%)
+  layer  1 (16->1):     3 /    17 non-zero  (17.6%)
+
+[REDUNDANCY] (structured) Dataset B -- 90.0% sparsity
+  layer  0 (1->16):     2 /    32 non-zero  (6.2%)
+  layer  1 (16->1):     2 /    17 non-zero  (11.8%)
+
+[LOWRANK] (low-rank) Dataset B -- 0.0% sparsity
+  layer  0 (1->16):    32 /    32 non-zero  (100.0%)
+  layer  1 (16->1):    17 /    17 non-zero  (100.0%)
+
+[TAYLOR_FO] (weight-removal) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    27 /    32 non-zero  (84.4%)
+  layer  1 (16->1):    17 /    17 non-zero  (100.0%)
+
+[TAYLOR_FO] (weight-removal) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    26 /    32 non-zero  (81.2%)
+  layer  1 (16->1):    13 /    17 non-zero  (76.5%)
+
+[TAYLOR_FO] (weight-removal) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    22 /    32 non-zero  (68.8%)
+  layer  1 (16->1):    12 /    17 non-zero  (70.6%)
+
+[TAYLOR_FO] (weight-removal) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    19 /    32 non-zero  (59.4%)
+  layer  1 (16->1):    10 /    17 non-zero  (58.8%)
+
+[TAYLOR_FO] (weight-removal) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    14 /    32 non-zero  (43.8%)
+  layer  1 (16->1):    10 /    17 non-zero  (58.8%)
+
+[TAYLOR_FO] (weight-removal) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    10 /    32 non-zero  (31.2%)
+  layer  1 (16->1):     9 /    17 non-zero  (52.9%)
+
+[TAYLOR_FO] (weight-removal) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):     8 /    32 non-zero  (25.0%)
+  layer  1 (16->1):     6 /    17 non-zero  (35.3%)
+
+[TAYLOR_FO] (weight-removal) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     5 /    32 non-zero  (15.6%)
+  layer  1 (16->1):     4 /    17 non-zero  (23.5%)
+
+[SNIP] (weight-removal) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    28 /    32 non-zero  (87.5%)
+  layer  1 (16->1):    16 /    17 non-zero  (94.1%)
+
+[SNIP] (weight-removal) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    24 /    32 non-zero  (75.0%)
+  layer  1 (16->1):    15 /    17 non-zero  (88.2%)
+
+[SNIP] (weight-removal) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    20 /    32 non-zero  (62.5%)
+  layer  1 (16->1):    14 /    17 non-zero  (82.4%)
+
+[SNIP] (weight-removal) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    18 /    32 non-zero  (56.2%)
+  layer  1 (16->1):    11 /    17 non-zero  (64.7%)
+
+[SNIP] (weight-removal) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    14 /    32 non-zero  (43.8%)
+  layer  1 (16->1):    10 /    17 non-zero  (58.8%)
+
+[SNIP] (weight-removal) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    10 /    32 non-zero  (31.2%)
+  layer  1 (16->1):    10 /    17 non-zero  (58.8%)
+
+[SNIP] (weight-removal) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):     8 /    32 non-zero  (25.0%)
+  layer  1 (16->1):     7 /    17 non-zero  (41.2%)
+
+[SNIP] (weight-removal) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     5 /    32 non-zero  (15.6%)
+  layer  1 (16->1):     5 /    17 non-zero  (29.4%)
+
+[SNIP] (weight-removal) Dataset B -- 90.0% sparsity
+  layer  0 (1->16):     2 /    32 non-zero  (6.2%)
+  layer  1 (16->1):     3 /    17 non-zero  (17.6%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 10.0% sparsity
+  layer  0 (1->16):    29 /    32 non-zero  (90.6%)
+  layer  1 (16->1):    15 /    17 non-zero  (88.2%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 20.0% sparsity
+  layer  0 (1->16):    26 /    32 non-zero  (81.2%)
+  layer  1 (16->1):    13 /    17 non-zero  (76.5%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 30.0% sparsity
+  layer  0 (1->16):    23 /    32 non-zero  (71.9%)
+  layer  1 (16->1):    11 /    17 non-zero  (64.7%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 40.0% sparsity
+  layer  0 (1->16):    21 /    32 non-zero  (65.6%)
+  layer  1 (16->1):     8 /    17 non-zero  (47.1%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 50.0% sparsity
+  layer  0 (1->16):    17 /    32 non-zero  (53.1%)
+  layer  1 (16->1):     7 /    17 non-zero  (41.2%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 60.0% sparsity
+  layer  0 (1->16):    16 /    32 non-zero  (50.0%)
+  layer  1 (16->1):     3 /    17 non-zero  (17.6%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 70.0% sparsity
+  layer  0 (1->16):    11 /    32 non-zero  (34.4%)
+  layer  1 (16->1):     3 /    17 non-zero  (17.6%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 80.0% sparsity
+  layer  0 (1->16):     6 /    32 non-zero  (18.8%)
+  layer  1 (16->1):     3 /    17 non-zero  (17.6%)
+
+[IMP_REWIND] (weight-removal) Dataset B -- 90.0% sparsity
+  layer  0 (1->16):     4 /    32 non-zero  (12.5%)
+  layer  1 (16->1):     0 /    17 non-zero  (0.0%)

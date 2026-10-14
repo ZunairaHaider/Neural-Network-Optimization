@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "How Lean Can We Go? Constructive Topology Search versus Pruning for Compact Regression Models in Electric-Motor Thermal Monitoring"
+type: report
+year: 2026
+authors:
+  - family-names: Li
+    given-names: Yanqin
+  - family-names: Haider
+    given-names: Zunaira
+  - family-names: Auti
+    given-names: Aryan
+  - family-names: Giuliani
+    given-names: Simon
+  - family-names: Prohaska
+    given-names: Marko
+license: MIT
+abstract: "Case study (TUM Department of Mathematics, course CIT413058, with Schaeffler AG) comparing neural-network pruning with constructive topology search."

@@ -1,0 +1,35 @@
+Method: OBD  |  Dataset: D  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/obd/D/original_network.png
+Baseline  |  params=13  |  test MSE=9.3099e-03
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obd/D/after_pruning_sparsity_15.png
+     10.0%        11    1.4090e-02      1.51x      0.065ms
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obd/D/after_pruning_sparsity_23.png
+     20.0%        10    1.2785e-02      1.37x      0.065ms
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obd/D/after_pruning_sparsity_31.png
+     30.0%         9    1.2275e-02      1.32x      0.064ms
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obd/D/after_pruning_sparsity_46.png
+     40.0%         7    8.9367e-01     95.99x      0.065ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obd/D/after_pruning_sparsity_54.png
+     50.0%         6    8.5337e-01     91.66x      0.064ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/obd/D/

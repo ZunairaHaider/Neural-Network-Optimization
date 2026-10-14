@@ -1,0 +1,60 @@
+Method: OBS  |  Dataset: B_3d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/original_network.png
+Baseline  |  params=31  |  test MSE=6.2281e+02
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_13.png
+     10.0%        27    6.2445e+02      1.00x      0.082ms
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_23.png
+     20.0%        24    6.2635e+02      1.01x      0.082ms
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_32.png
+     30.0%        21    6.2490e+02      1.00x      0.083ms
+
+── Target sparsity: 40% ──────────────────────
+tanh_pipeline/pruner.py:309: UserWarning: [OBS] H_reg ill-conditioned (cond=1.81e+10); increasing λ to 1.00e-03.
+  h_inv = obs_mod.compute_hessian_inv(model, x_calib, y_calib, device)
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_42.png
+     40.0%        18    8.1186e+02      1.30x      0.082ms
+
+── Target sparsity: 50% ──────────────────────
+tanh_pipeline/pruner.py:309: UserWarning: [OBS] H_reg ill-conditioned (cond=2.80e+10); increasing λ to 1.00e-03.
+  h_inv = obs_mod.compute_hessian_inv(model, x_calib, y_calib, device)
+tanh_pipeline/pruner.py:309: UserWarning: [OBS] λ bump did not restore conditioning (cond=1.17e+10); returning None — caller will fall back to OBD-diagonal saliency.
+  h_inv = obs_mod.compute_hessian_inv(model, x_calib, y_calib, device)
+[OBS] Falling back to Fisher-diagonal OBD saliency.
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_52.png
+     50.0%        15    8.0411e+02      1.29x      0.082ms
+
+── Target sparsity: 60% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_61.png
+     60.0%        12    1.0015e+03      1.61x      0.082ms
+
+── Target sparsity: 70% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_71.png
+     70.0%         9    1.0414e+03      1.67x      0.082ms
+
+── Target sparsity: 80% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_81.png
+     80.0%         6    1.3122e+03      2.11x      0.082ms
+
+── Target sparsity: 90% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/B_3d/after_pruning_sparsity_90.png
+     90.0%         3    1.3122e+03      2.11x      0.082ms
+
+Done. Results → tanh_pipeline/results/pruning/obs/B_3d/

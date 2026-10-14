@@ -1,0 +1,8 @@
+{
+  "method": "imp_rewind",
+  "dataset": "PMSM_all_in",
+  "sparsity_pct": 80.0,
+  "test_mse": 0.0061827292665839195,
+  "param_count": 83,
+  "inference_ms": 0.1103
+}

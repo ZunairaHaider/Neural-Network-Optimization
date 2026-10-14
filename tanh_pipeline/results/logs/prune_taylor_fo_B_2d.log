@@ -1,0 +1,40 @@
+Method: TAYLOR_FO  |  Dataset: B_2d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_2d/original_network.png
+Baseline  |  params=17  |  test MSE=2.7433e+01
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_2d/after_pruning_sparsity_12.png
+     10.0%        15    2.8972e+01      1.06x      0.070ms
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_2d/after_pruning_sparsity_24.png
+     20.0%        13    3.0339e+01      1.11x      0.068ms
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_2d/after_pruning_sparsity_35.png
+     30.0%        11    2.9712e+01      1.08x      0.068ms
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_2d/after_pruning_sparsity_41.png
+     40.0%        10    2.9219e+01      1.07x      0.068ms
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_2d/after_pruning_sparsity_53.png
+     50.0%         8    4.0324e+01      1.47x      0.068ms
+
+── Target sparsity: 60% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_2d/after_pruning_sparsity_65.png
+     60.0%         6    8.2576e+01      3.01x      0.068ms  ⚠
+
+MSE > 3.0× baseline at 60% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/taylor_fo/B_2d/

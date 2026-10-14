@@ -1,0 +1,11 @@
+# Dataset is large (~138 MB) — download from Kaggle, don't commit
+data/measures_v2.csv
+data/*.csv
+
+# PDF export is a personal/meeting copy, not tracked in the repo
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

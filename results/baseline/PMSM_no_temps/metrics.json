@@ -1,0 +1,11 @@
+{
+  "config_name": "PMSM_no_temps",
+  "input_dim": 8,
+  "n_params": 321,
+  "architecture": "1\u00d732 gelu",
+  "test_mse_normalised": 0.15553826093673706,
+  "test_mae_celsius": 8.24804401397705,
+  "test_rmse_celsius": 11.197311401367188,
+  "test_max_abs_celsius": 208.783203125,
+  "test_r2": 0.8532788157463074
+}

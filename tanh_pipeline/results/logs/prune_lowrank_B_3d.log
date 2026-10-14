@@ -1,0 +1,92 @@
+Method: LOWRANK  |  Dataset: B_3d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/original_network.png
+Baseline  |  params=31  |  test MSE=6.2281e+02
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+[LowRank] Initial decomposition...
+[LowRank] layers.0: 6x3, rank=3
+[LowRank] layers.1: 1x6, rank=1
+
+── Target sparsity: 10% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 10% (0 SV(s) to prune)
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     10.0%        41    6.2281e+02      1.00x      0.082ms
+
+── Target sparsity: 20% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 20% (1 SV(s) to prune)
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     20.0%        41    6.2281e+02      1.00x      0.082ms
+
+── Target sparsity: 30% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 30% (1 SV(s) to prune)
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     30.0%        41    6.2281e+02      1.00x      0.081ms
+
+── Target sparsity: 40% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 40% (2 SV(s) to prune)
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     40.0%        41    6.2281e+02      1.00x      0.081ms
+
+── Target sparsity: 50% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 50% (2 SV(s) to prune)
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     50.0%        41    6.2281e+02      1.00x      0.081ms
+
+── Target sparsity: 60% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 60% (2 SV(s) to prune)
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     60.0%        41    6.2281e+02      1.00x      0.081ms
+
+── Target sparsity: 70% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 70% (3 SV(s) to prune)
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     70.0%        41    6.2281e+02      1.00x      0.082ms
+
+── Target sparsity: 80% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 80% (3 SV(s) to prune)
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     80.0%        41    6.2281e+02      1.00x      0.081ms
+
+── Target sparsity: 90% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 90% (4 SV(s) to prune)
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=3/3, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/B_3d/after_pruning_sparsity_00.png
+     90.0%        41    6.2281e+02      1.00x      0.081ms
+
+Done. Results → tanh_pipeline/results/pruning/lowrank/B_3d/

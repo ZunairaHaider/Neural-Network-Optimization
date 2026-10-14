@@ -1,0 +1,11 @@
+YarotskyDatasetANet(
+  (squaring_net): YarotskySquaringNet(
+    (teeth): ModuleList(
+      (0-6): 7 x _ToothLayer(
+        (fc1): Linear(in_features=1, out_features=3, bias=True)
+        (fc2): Linear(in_features=3, out_features=1, bias=False)
+      )
+    )
+  )
+  (pre): Linear(in_features=1, out_features=1, bias=True)
+)

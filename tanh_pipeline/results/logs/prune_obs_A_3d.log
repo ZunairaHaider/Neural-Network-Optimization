@@ -1,0 +1,40 @@
+Method: OBS  |  Dataset: A_3d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/obs/A_3d/original_network.png
+Baseline  |  params=2273  |  test MSE=5.7787e-04
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+tanh_pipeline/pruner.py:309: UserWarning: [OBS] H_reg ill-conditioned (cond=1.01e+11); increasing λ to 1.00e-03.
+  h_inv = obs_mod.compute_hessian_inv(model, x_calib, y_calib, device)
+tanh_pipeline/pruner.py:309: UserWarning: [OBS] λ bump did not restore conditioning (cond=1.54e+10); returning None — caller will fall back to OBD-diagonal saliency.
+  h_inv = obs_mod.compute_hessian_inv(model, x_calib, y_calib, device)
+[OBS] Falling back to Fisher-diagonal OBD saliency.
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_3d/after_pruning_sparsity_10.png
+     10.0%      2045    7.3845e-02    127.79x      0.370ms  ⚠
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_3d/after_pruning_sparsity_20.png
+     20.0%      1818    1.2804e-01    221.56x      0.363ms  ⚠
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_3d/after_pruning_sparsity_30.png
+     30.0%      1591    1.6890e-01    292.27x      0.360ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_3d/after_pruning_sparsity_40.png
+     40.0%      1363    1.4333e-01    248.02x      0.493ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_3d/after_pruning_sparsity_50.png
+     50.0%      1136    1.5153e-01    262.22x      0.382ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/obs/A_3d/

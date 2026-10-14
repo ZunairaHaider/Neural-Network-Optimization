@@ -1,0 +1,8 @@
+{
+  "method": "snip",
+  "dataset": "A",
+  "sparsity_pct": 30.0,
+  "test_mse": 0.00044694141251966357,
+  "param_count": 225,
+  "inference_ms": 0.0727
+}

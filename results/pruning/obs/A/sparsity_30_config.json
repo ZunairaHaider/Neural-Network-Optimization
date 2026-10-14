@@ -1,0 +1,8 @@
+{
+  "method": "obs",
+  "dataset": "A",
+  "sparsity_pct": 30.0,
+  "test_mse": 0.00021262725931592286,
+  "param_count": 224,
+  "inference_ms": 0.076
+}

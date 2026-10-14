@@ -1,0 +1,162 @@
+{
+  "seed": 42,
+  "subsample": 6000,
+  "cycles": 12,
+  "target": "stator_winding",
+  "elec": [
+    "ambient",
+    "u_d",
+    "u_q",
+    "motor_speed",
+    "i_d",
+    "i_q",
+    "torque"
+  ],
+  "configs": [
+    {
+      "config": "all_signals",
+      "inputs": [
+        "ambient",
+        "u_d",
+        "u_q",
+        "motor_speed",
+        "i_d",
+        "i_q",
+        "torque",
+        "coolant",
+        "pm",
+        "stator_tooth",
+        "stator_yoke"
+      ],
+      "n_inputs": 11,
+      "topology": [
+        11,
+        12,
+        12,
+        1,
+        1
+      ],
+      "skip_connections": {
+        "3": [
+          0
+        ]
+      },
+      "params": 315,
+      "test_mse": 0.0029466083371535064,
+      "mae_c": 1.0497093688289714,
+      "rmse_c": 1.5411896883065637,
+      "max_abs_c": 12.517484681578997,
+      "target_std_c": 28.3919281925242
+    },
+    {
+      "config": "coolant+elec",
+      "inputs": [
+        "ambient",
+        "u_d",
+        "u_q",
+        "motor_speed",
+        "i_d",
+        "i_q",
+        "torque",
+        "coolant"
+      ],
+      "n_inputs": 8,
+      "topology": [
+        8,
+        8,
+        8,
+        1,
+        1
+      ],
+      "skip_connections": {},
+      "params": 155,
+      "test_mse": 0.1483414846138792,
+      "mae_c": 7.545451894167589,
+      "rmse_c": 10.935186605149838,
+      "max_abs_c": 139.28928995705292,
+      "target_std_c": 28.3919281925242
+    },
+    {
+      "config": "coolant+elec+pm",
+      "inputs": [
+        "ambient",
+        "u_d",
+        "u_q",
+        "motor_speed",
+        "i_d",
+        "i_q",
+        "torque",
+        "coolant",
+        "pm"
+      ],
+      "n_inputs": 9,
+      "topology": [
+        9,
+        4,
+        1
+      ],
+      "skip_connections": {},
+      "params": 45,
+      "test_mse": 0.11960976944227475,
+      "mae_c": 7.244884063391796,
+      "rmse_c": 9.819247675206848,
+      "max_abs_c": 72.7878272798973,
+      "target_std_c": 28.3919281925242
+    },
+    {
+      "config": "elec_only",
+      "inputs": [
+        "ambient",
+        "u_d",
+        "u_q",
+        "motor_speed",
+        "i_d",
+        "i_q",
+        "torque"
+      ],
+      "n_inputs": 7,
+      "topology": [
+        7,
+        7,
+        3,
+        7,
+        1
+      ],
+      "skip_connections": {
+        "2": [
+          0
+        ]
+      },
+      "params": 116,
+      "test_mse": 0.20911723269451712,
+      "mae_c": 9.729896895711649,
+      "rmse_c": 12.98344072414296,
+      "max_abs_c": 146.07466975234863,
+      "target_std_c": 28.3919281925242
+    },
+    {
+      "config": "temps_only",
+      "inputs": [
+        "coolant",
+        "pm",
+        "stator_tooth",
+        "stator_yoke"
+      ],
+      "n_inputs": 4,
+      "topology": [
+        4,
+        4,
+        4,
+        1,
+        1
+      ],
+      "skip_connections": {},
+      "params": 47,
+      "test_mse": 0.006172577860994116,
+      "mae_c": 1.6409992967634026,
+      "rmse_c": 2.2306332747623525,
+      "max_abs_c": 14.220790963222276,
+      "target_std_c": 28.3919281925242
+    }
+  ]
+}

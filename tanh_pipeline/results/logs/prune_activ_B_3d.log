@@ -1,0 +1,45 @@
+Method: ACTIV  |  Dataset: B_3d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/activ/B_3d/original_network.png
+Baseline  |  params=31  |  test MSE=6.2281e+02
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/B_3d/after_pruning_sparsity_16.png
+     10.0%        26    6.2478e+02      1.00x      0.082ms
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/B_3d/after_pruning_sparsity_32.png
+     20.0%        21    2.3545e+04     37.80x      0.082ms  ⚠
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/B_3d/after_pruning_sparsity_32.png
+     30.0%        21    1.8844e+04     30.26x      0.082ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/B_3d/after_pruning_sparsity_48.png
+     40.0%        16    1.4786e+04     23.74x      0.082ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/B_3d/after_pruning_sparsity_65.png
+     50.0%        11    1.3125e+03      2.11x      0.082ms
+
+── Target sparsity: 60% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/B_3d/after_pruning_sparsity_65.png
+     60.0%        11    1.3122e+03      2.11x      0.083ms
+
+── Target sparsity: 70% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/activ/B_3d/after_pruning_sparsity_81.png
+     70.0%         6    9.6460e+03     15.49x      0.082ms  ⚠
+
+MSE > 3.0× baseline at 70% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/activ/B_3d/

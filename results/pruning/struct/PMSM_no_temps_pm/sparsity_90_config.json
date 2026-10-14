@@ -1,0 +1,8 @@
+{
+  "method": "struct",
+  "dataset": "PMSM_no_temps_pm",
+  "sparsity_pct": 90.0,
+  "test_mse": 0.11591392010450363,
+  "param_count": 131,
+  "inference_ms": 31.6338
+}

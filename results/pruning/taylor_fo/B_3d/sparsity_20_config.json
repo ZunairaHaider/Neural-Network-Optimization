@@ -1,0 +1,8 @@
+{
+  "method": "taylor_fo",
+  "dataset": "B_3d",
+  "sparsity_pct": 20.0,
+  "test_mse": 626.5491333007812,
+  "param_count": 32,
+  "inference_ms": 0.0594
+}

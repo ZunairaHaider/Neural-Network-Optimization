@@ -1,0 +1,8 @@
+{
+  "method": "obs",
+  "dataset": "B_3d",
+  "sparsity_pct": 60.0,
+  "test_mse": 1001.4713745117188,
+  "param_count": 12,
+  "inference_ms": 0.082
+}

@@ -1,0 +1,8 @@
+{
+  "method": "activ",
+  "dataset": "B_2d",
+  "sparsity_pct": 40.0,
+  "test_mse": 56.019554138183594,
+  "param_count": 9,
+  "inference_ms": 0.0682
+}

@@ -1,0 +1,8 @@
+{
+  "method": "taylor_fo",
+  "dataset": "PMSM_no_temps_pm_ewma",
+  "sparsity_pct": 20.0,
+  "test_mse": 0.0018943474860861897,
+  "param_count": 61133,
+  "inference_ms": 224.653
+}

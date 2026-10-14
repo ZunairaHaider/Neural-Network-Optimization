@@ -1,0 +1,39 @@
+{
+  "dataset": "B",
+  "architecture": {
+    "n_layers": 1,
+    "n_neurons": 16,
+    "activation": "relu"
+  },
+  "training_hparams": {
+    "lr": 0.007655477116396389,
+    "weight_decay": 1e-05,
+    "optimizer": "Adam",
+    "batch_mode": "full-batch",
+    "max_epochs": 1000,
+    "patience": 20
+  },
+  "n_params": 49,
+  "metrics": {
+    "hpo_val_mse": 3.0884697437286377,
+    "overall_best_val_mse": 3.0104968547821045,
+    "retrain_val_mse": 4.123308181762695,
+    "test_mse_locked": 3.988626003265381
+  },
+  "hpo": {
+    "split_type": "random IID (val = random 20% of HPO pool)",
+    "n_repeats": 1,
+    "val_frac": 0.2,
+    "stages_completed": [
+      "stage1"
+    ],
+    "trials_per_stage": {
+      "stage1": 120
+    },
+    "n_hpo_pool": 1000,
+    "noise_floor_target": 4.8
+  },
+  "selection_rule": "smallest n_params within 5% of best val MSE",
+  "selected_trial_number": 40,
+  "overall_best_trial_number": 82
+}

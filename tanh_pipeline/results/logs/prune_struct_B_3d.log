@@ -1,0 +1,35 @@
+Method: STRUCT  |  Dataset: B_3d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/struct/B_3d/original_network.png
+Baseline  |  params=31  |  test MSE=6.2281e+02
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/struct/B_3d/after_pruning_sparsity_16.png
+     10.0%        26    1.4395e+03      2.31x      0.082ms
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/struct/B_3d/after_pruning_sparsity_32.png
+     20.0%        21    6.8576e+03     11.01x      0.082ms  ⚠
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/struct/B_3d/after_pruning_sparsity_32.png
+     30.0%        21    4.6689e+03      7.50x      0.081ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/struct/B_3d/after_pruning_sparsity_48.png
+     40.0%        16    1.3946e+05    223.93x      0.081ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/struct/B_3d/after_pruning_sparsity_65.png
+     50.0%        11    7.3899e+04    118.65x      0.081ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/struct/B_3d/

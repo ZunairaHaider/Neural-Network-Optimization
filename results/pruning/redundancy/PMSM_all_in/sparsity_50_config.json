@@ -1,0 +1,8 @@
+{
+  "method": "redundancy",
+  "dataset": "PMSM_all_in",
+  "sparsity_pct": 50.0,
+  "test_mse": 0.0028737972024828196,
+  "param_count": 208,
+  "inference_ms": 14.5471
+}

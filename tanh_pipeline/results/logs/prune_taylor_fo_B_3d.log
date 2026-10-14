@@ -1,0 +1,53 @@
+Method: TAYLOR_FO  |  Dataset: B_3d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/original_network.png
+Baseline  |  params=31  |  test MSE=6.2281e+02
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_13.png
+     10.0%        27    6.2580e+02      1.00x      0.082ms
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_23.png
+     20.0%        24    6.2418e+02      1.00x      0.081ms
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_32.png
+     30.0%        21    6.2748e+02      1.01x      0.082ms
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_42.png
+     40.0%        18    6.2525e+02      1.00x      0.081ms
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_52.png
+     50.0%        15    6.2712e+02      1.01x      0.081ms
+
+── Target sparsity: 60% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_61.png
+     60.0%        12    6.3197e+02      1.01x      0.082ms
+
+── Target sparsity: 70% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_71.png
+     70.0%         9    1.3240e+03      2.13x      0.082ms
+
+── Target sparsity: 80% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_81.png
+     80.0%         6    1.3253e+03      2.13x      0.081ms
+
+── Target sparsity: 90% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/taylor_fo/B_3d/after_pruning_sparsity_90.png
+     90.0%         3    1.3122e+03      2.11x      0.081ms
+
+Done. Results → tanh_pipeline/results/pruning/taylor_fo/B_3d/

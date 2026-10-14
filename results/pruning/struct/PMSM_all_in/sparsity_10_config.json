@@ -1,0 +1,8 @@
+{
+  "method": "struct",
+  "dataset": "PMSM_all_in",
+  "sparsity_pct": 10.0,
+  "test_mse": 0.002906358800828457,
+  "param_count": 365,
+  "inference_ms": 19.8016
+}

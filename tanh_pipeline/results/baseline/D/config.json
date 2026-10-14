@@ -1,0 +1,47 @@
+{
+  "dataset": "D",
+  "architecture": {
+    "n_layers": 1,
+    "n_neurons": 4,
+    "activation": "tanh",
+    "input_dim": 1,
+    "output_dim": 1
+  },
+  "training_hparams": {
+    "lr": 0.0015768166453059612,
+    "weight_decay": 0.01,
+    "optimizer": "Adam + LBFGS polish",
+    "batch_mode": "full-batch",
+    "max_epochs": 2000,
+    "patience": 100,
+    "lbfgs_polish": true
+  },
+  "n_params": 13,
+  "metrics": {
+    "hpo_val_mse": 0.00967773050069809,
+    "overall_best_val_mse": 0.009516369551420212,
+    "retrain_val_mse": 0.01002930011600256,
+    "test_mse_locked": 0.009309850633144379
+  },
+  "hpo": {
+    "activation_space": [
+      "tanh"
+    ],
+    "trial_patience": 100,
+    "retrain_patience": 100,
+    "split_type": "random IID (val = random 20% of HPO pool)",
+    "n_repeats": 1,
+    "val_frac": 0.2,
+    "stages_completed": [
+      "stage1"
+    ],
+    "trials_per_stage": {
+      "stage1": 120
+    },
+    "n_hpo_pool": 1000,
+    "noise_floor_target": 0.012
+  },
+  "selection_rule": "smallest n_params within 5% of best val MSE",
+  "selected_trial_number": 17,
+  "overall_best_trial_number": 32
+}

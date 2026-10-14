@@ -1,0 +1,8 @@
+{
+  "method": "obd",
+  "dataset": "PMSM_no_temps_ewma",
+  "sparsity_pct": 40.0,
+  "test_mse": 0.0032995203509926796,
+  "param_count": 5568,
+  "inference_ms": 151.9585
+}

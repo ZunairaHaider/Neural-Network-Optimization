@@ -1,0 +1,8 @@
+{
+  "method": "taylor_fo",
+  "dataset": "A",
+  "sparsity_pct": 30.0,
+  "test_mse": 0.00022137415362522006,
+  "param_count": 224,
+  "inference_ms": 0.0734
+}

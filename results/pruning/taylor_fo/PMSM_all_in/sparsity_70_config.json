@@ -1,0 +1,8 @@
+{
+  "method": "taylor_fo",
+  "dataset": "PMSM_all_in",
+  "sparsity_pct": 70.0,
+  "test_mse": 0.0028184603434056044,
+  "param_count": 125,
+  "inference_ms": 21.37
+}

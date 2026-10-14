@@ -1,0 +1,8 @@
+{
+  "method": "imp_rewind",
+  "dataset": "B_2d",
+  "sparsity_pct": 20.0,
+  "test_mse": 36.75436019897461,
+  "param_count": 13,
+  "inference_ms": 0.0673
+}

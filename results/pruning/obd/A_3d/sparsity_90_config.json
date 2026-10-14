@@ -1,0 +1,8 @@
+{
+  "method": "obd",
+  "dataset": "A_3d",
+  "sparsity_pct": 90.0,
+  "test_mse": 0.026336416602134705,
+  "param_count": 494,
+  "inference_ms": 0.4094
+}

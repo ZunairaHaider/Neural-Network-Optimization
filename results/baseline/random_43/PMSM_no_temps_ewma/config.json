@@ -1,0 +1,49 @@
+{
+  "dataset": "PMSM_no_temps_ewma",
+  "split_mode": "random",
+  "architecture": {
+    "n_layers": 7,
+    "n_neurons": 64,
+    "activation": "tanh",
+    "input_dim": 78,
+    "output_dim": 1
+  },
+  "training_hparams": {
+    "lr": 0.0014732676795341996,
+    "weight_decay": 0.001,
+    "optimizer": "Adam",
+    "batch_size": 1024,
+    "batch_mode": "mini-batch",
+    "max_epochs": 800,
+    "patience": 50
+  },
+  "n_params": 30081,
+  "metrics": {
+    "hpo_val_mse": 0.004252003971487284,
+    "overall_best_val_mse": 0.004252003971487284,
+    "retrain_val_mse": 0.004435742273926735,
+    "test_mse_locked": 0.005607036408036947,
+    "test_mae_celsius": 1.4822229146957397,
+    "test_rmse_celsius": 2.161893367767334,
+    "test_max_abs_celsius": 30.015899658203125,
+    "test_r2": 0.9920744895935059
+  },
+  "hpo": {
+    "split_type": "profile-based / random",
+    "n_trials": 50,
+    "n_complete": 35,
+    "n_pruned_by_budget": 15,
+    "hpo_pool_size": 80000,
+    "val_size": 139980,
+    "test_size": 271648,
+    "param_budget_soft_cap": 100000,
+    "hpo_time_seconds": 2589.5
+  },
+  "normalisation": {
+    "y_mean_celsius": 65.73620015639811,
+    "y_std_celsius": 28.87138380336778,
+    "note": "multiply by y_std and add y_mean for \u00b0C"
+  },
+  "selection_rule": "smallest n_params within 5% of best val MSE",
+  "selected_trial_number": 7
+}

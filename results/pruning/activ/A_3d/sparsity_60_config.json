@@ -1,0 +1,8 @@
+{
+  "method": "activ",
+  "dataset": "A_3d",
+  "sparsity_pct": 60.0,
+  "test_mse": 0.037348076701164246,
+  "param_count": 1911,
+  "inference_ms": 0.3846
+}

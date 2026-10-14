@@ -1,0 +1,40 @@
+Method: REDUNDANCY  |  Dataset: B_2d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/redundancy/B_2d/original_network.png
+Baseline  |  params=17  |  test MSE=2.7433e+01
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+src/pruning/redundancy_pruning.py:235: UserWarning: No redundant pairs found.
+  warnings.warn(
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/B_2d/after_pruning_sparsity_12.png
+     10.0%        15    3.6807e+01      1.34x      0.068ms
+
+── Target sparsity: 20% ──────────────────────
+[Redundancy] merged layers.0: 1 <- 3
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/B_2d/after_pruning_sparsity_24.png
+     20.0%        13    7.9341e+01      2.89x      0.068ms
+
+── Target sparsity: 30% ──────────────────────
+src/pruning/redundancy_pruning.py:235: UserWarning: No redundant pairs found.
+  warnings.warn(
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/B_2d/after_pruning_sparsity_35.png
+     30.0%        11    8.6185e+01      3.14x      0.068ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/B_2d/after_pruning_sparsity_41.png
+     40.0%        10    8.6232e+01      3.14x      0.068ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/B_2d/after_pruning_sparsity_53.png
+     50.0%         8    3.7551e+05  13688.37x      0.068ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/redundancy/B_2d/

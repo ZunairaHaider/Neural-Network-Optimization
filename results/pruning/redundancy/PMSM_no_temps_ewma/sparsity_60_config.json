@@ -1,0 +1,8 @@
+{
+  "method": "redundancy",
+  "dataset": "PMSM_no_temps_ewma",
+  "sparsity_pct": 60.0,
+  "test_mse": 0.0034987060353159904,
+  "param_count": 3712,
+  "inference_ms": 46.194
+}

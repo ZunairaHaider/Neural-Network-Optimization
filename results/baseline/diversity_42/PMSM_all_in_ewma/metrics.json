@@ -1,0 +1,12 @@
+{
+  "config_name": "PMSM_all_in_ewma",
+  "split_mode": "diversity",
+  "input_dim": 81,
+  "n_params": 60161,
+  "architecture": "4\u00d7128 gelu",
+  "test_mse_normalised": 0.0018589048413559794,
+  "test_mae_celsius": 0.8899515867233276,
+  "test_rmse_celsius": 1.1933064460754395,
+  "test_max_abs_celsius": 10.946514129638672,
+  "test_r2": 0.99847412109375
+}

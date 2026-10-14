@@ -1,0 +1,113 @@
+dataset,method,method_type,n_params,test_mse,mse_ratio,sparsity_pct,topology_desc,note
+A,baseline,baseline,25,1.2689115465036593e-05,1.0,0.0,1x8 tanh,tanh HPO baseline
+A,obd,pruning,17,0.00035524158738553524,27.995772310872482,30.0,"pruned, sparsity=30.0%",best test MSE
+A,obs,pruning,22,1.3635058166983072e-05,1.0745475683118273,10.0,"pruned, sparsity=10.0%",best test MSE
+A,obs,pruning,22,1.3635058166983072e-05,1.0745475683118273,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+A,mag,pruning,19,0.005467764101922512,430.9019109321143,20.0,"pruned, sparsity=20.0%",best test MSE
+A,struct,pruning,22,0.001742177177220583,137.29697566555785,10.0,"pruned, sparsity=10.0%",best test MSE
+A,activ,pruning,19,0.0014168483903631568,111.65856235346904,20.0,"pruned, sparsity=20.0%",best test MSE
+A,redundancy,pruning,22,0.12213675677776337,9625.316840586504,10.0,"pruned, sparsity=10.0%",best test MSE
+A,lowrank,pruning,27,1.2692051313933916e-05,1.0002313674980272,0.0,"pruned, sparsity=0.0%",best test MSE
+A,lowrank,pruning,27,1.2692051313933916e-05,1.0002313674980272,0.0,"pruned, sparsity=0.0%",best compression (<=1.5x baseline MSE)
+A,taylor_fo,pruning,17,0.00035524158738553524,27.995772310872482,30.0,"pruned, sparsity=30.0%",best test MSE
+A,snip,pruning,20,0.5623889565467834,44320.57995660784,20.0,"pruned, sparsity=20.0%",best test MSE
+A,imp_rewind,pruning,22,0.551078200340271,43429.205279020745,10.0,"pruned, sparsity=10.0%",best test MSE
+B,baseline,baseline,13,3.9503040313720703,1.0,0.0,1x4 tanh,tanh HPO baseline
+B,obd,pruning,10,4.034794330596924,1.0213883029138664,20.0,"pruned, sparsity=20.0%",best test MSE
+B,obd,pruning,9,4.0612030029296875,1.0280735281833733,30.0,"pruned, sparsity=30.0%",best compression (<=1.5x baseline MSE)
+B,obs,pruning,10,4.075894355773926,1.031792571762694,20.0,"pruned, sparsity=20.0%",best test MSE
+B,obs,pruning,10,4.075894355773926,1.031792571762694,20.0,"pruned, sparsity=20.0%",best compression (<=1.5x baseline MSE)
+B,mag,pruning,11,3.9774506092071533,1.0068720224113115,10.0,"pruned, sparsity=10.0%",best test MSE
+B,mag,pruning,11,3.9774506092071533,1.0068720224113115,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+B,struct,pruning,10,11.556068420410156,2.9253617768747673,20.0,"pruned, sparsity=20.0%",best test MSE
+B,activ,pruning,10,11.432201385498047,2.894005447354711,20.0,"pruned, sparsity=20.0%",best test MSE
+B,redundancy,pruning,11,3.9774506092071533,1.0068720224113115,10.0,"pruned, sparsity=10.0%",best test MSE
+B,redundancy,pruning,11,3.9774506092071533,1.0068720224113115,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+B,lowrank,pruning,15,3.950402021408081,1.0000248056947598,0.0,"pruned, sparsity=0.0%",best test MSE
+B,lowrank,pruning,15,3.950402021408081,1.0000248056947598,0.0,"pruned, sparsity=0.0%",best compression (<=1.5x baseline MSE)
+B,taylor_fo,pruning,10,4.034794330596924,1.0213883029138664,20.0,"pruned, sparsity=20.0%",best test MSE
+B,taylor_fo,pruning,9,4.0612030029296875,1.0280735281833733,30.0,"pruned, sparsity=30.0%",best compression (<=1.5x baseline MSE)
+B,snip,pruning,12,4.627354621887207,1.1713920207503559,10.0,"pruned, sparsity=10.0%",best test MSE
+B,snip,pruning,6,4.944694519042969,1.2517250519893564,50.0,"pruned, sparsity=50.0%",best compression (<=1.5x baseline MSE)
+B,imp_rewind,pruning,11,4.7177324295043945,1.19427071740242,10.0,"pruned, sparsity=10.0%",best test MSE
+B,imp_rewind,pruning,9,4.936135292053223,1.2495583258534004,30.0,"pruned, sparsity=30.0%",best compression (<=1.5x baseline MSE)
+A_2d,baseline,baseline,65,2.4704026145627722e-05,1.0,0.0,1x16 tanh,tanh HPO baseline
+A_2d,obd,pruning,58,0.01037600263953209,420.01261569132936,10.0,"pruned, sparsity=10.0%",best test MSE
+A_2d,obs,pruning,51,2.670992944331374e-05,1.081197424495158,20.0,"pruned, sparsity=20.0%",best test MSE
+A_2d,obs,pruning,45,2.723951547523029e-05,1.1026346602232413,30.0,"pruned, sparsity=30.0%",best compression (<=1.5x baseline MSE)
+A_2d,mag,pruning,58,0.3769044280052185,15256.801696347196,10.0,"pruned, sparsity=10.0%",best test MSE
+A_2d,struct,pruning,49,0.20005597174167633,8098.112047095754,20.0,"pruned, sparsity=20.0%",best test MSE
+A_2d,activ,pruning,57,33.296241760253906,1347806.287281917,10.0,"pruned, sparsity=10.0%",best test MSE
+A_2d,redundancy,pruning,58,0.3211710751056671,13000.758387009319,10.0,"pruned, sparsity=10.0%",best test MSE
+A_2d,lowrank,pruning,70,2.4695122192497365e-05,0.9996395748175674,0.0,"pruned, sparsity=0.0%",best test MSE
+A_2d,lowrank,pruning,70,2.4695122192497365e-05,0.9996395748175674,0.0,"pruned, sparsity=0.0%",best compression (<=1.5x baseline MSE)
+A_2d,taylor_fo,pruning,58,2.6262892788508907e-05,1.063101724135646,10.0,"pruned, sparsity=10.0%",best test MSE
+A_2d,taylor_fo,pruning,58,2.6262892788508907e-05,1.063101724135646,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+A_2d,snip,pruning,58,36.944854736328125,1495499.3375793064,10.0,"pruned, sparsity=10.0%",best test MSE
+A_2d,imp_rewind,pruning,32,35.231754302978516,1426154.3480925297,50.0,"pruned, sparsity=50.0%",best test MSE
+A_3d,baseline,baseline,2273,0.0005778748891316354,1.0,0.0,3x32 tanh,tanh HPO baseline
+A_3d,obd,pruning,2045,0.07384540885686874,127.78788323513281,10.0,"pruned, sparsity=10.0%",best test MSE
+A_3d,obs,pruning,2045,0.07384540885686874,127.78788323513281,10.0,"pruned, sparsity=10.0%",best test MSE
+A_3d,mag,pruning,2045,0.07135162502527237,123.47244423873732,10.0,"pruned, sparsity=10.0%",best test MSE
+A_3d,struct,pruning,1589,0.16996607184410095,294.1226120752653,30.0,"pruned, sparsity=30.0%",best test MSE
+A_3d,activ,pruning,2045,0.12614251673221588,218.28689757010983,10.0,"pruned, sparsity=10.0%",best test MSE
+A_3d,redundancy,pruning,2045,0.07742765545845032,133.98688351867958,10.0,"pruned, sparsity=10.0%",best test MSE
+A_3d,lowrank,pruning,4331,0.05098504200577736,88.22851271906255,0.0,"pruned, sparsity=0.0%",best test MSE
+A_3d,taylor_fo,pruning,1136,0.094931460916996,164.27684037222693,50.0,"pruned, sparsity=50.0%",best test MSE
+A_3d,snip,pruning,1364,0.09313305467367172,161.1647372558816,40.0,"pruned, sparsity=40.0%",best test MSE
+A_3d,imp_rewind,pruning,1591,0.07040564715862274,121.83544999579465,30.0,"pruned, sparsity=30.0%",best test MSE
+B_2d,baseline,baseline,17,27.432621002197266,1.0,0.0,1x4 tanh,tanh HPO baseline
+B_2d,obd,pruning,11,27.957956314086914,1.0191500225898054,30.0,"pruned, sparsity=30.0%",best test MSE
+B_2d,obd,pruning,8,39.92094421386719,1.455236239026145,50.0,"pruned, sparsity=50.0%",best compression (<=1.5x baseline MSE)
+B_2d,obs,pruning,15,28.972116470336914,1.0561191534712027,10.0,"pruned, sparsity=10.0%",best test MSE
+B_2d,obs,pruning,10,37.6105842590332,1.3710167998902005,40.0,"pruned, sparsity=40.0%",best compression (<=1.5x baseline MSE)
+B_2d,mag,pruning,15,36.80722427368164,1.341731957392387,10.0,"pruned, sparsity=10.0%",best test MSE
+B_2d,mag,pruning,13,40.57364273071289,1.4790290263355832,20.0,"pruned, sparsity=20.0%",best compression (<=1.5x baseline MSE)
+B_2d,struct,pruning,13,36.30306625366211,1.323353909593777,10.0,"pruned, sparsity=10.0%",best test MSE
+B_2d,struct,pruning,13,36.30306625366211,1.323353909593777,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+B_2d,activ,pruning,13,36.30306625366211,1.323353909593777,10.0,"pruned, sparsity=10.0%",best test MSE
+B_2d,activ,pruning,13,36.30306625366211,1.323353909593777,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+B_2d,redundancy,pruning,15,36.80722427368164,1.341731957392387,10.0,"pruned, sparsity=10.0%",best test MSE
+B_2d,redundancy,pruning,15,36.80722427368164,1.341731957392387,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+B_2d,lowrank,pruning,22,27.432640075683594,1.0000006952848701,0.0,"pruned, sparsity=0.0%",best test MSE
+B_2d,lowrank,pruning,22,27.432640075683594,1.0000006952848701,0.0,"pruned, sparsity=0.0%",best compression (<=1.5x baseline MSE)
+B_2d,taylor_fo,pruning,15,28.972116470336914,1.0561191534712027,10.0,"pruned, sparsity=10.0%",best test MSE
+B_2d,taylor_fo,pruning,8,40.324337005615234,1.4699410968563806,50.0,"pruned, sparsity=50.0%",best compression (<=1.5x baseline MSE)
+B_2d,snip,pruning,15,36.66557693481445,1.336568493833588,10.0,"pruned, sparsity=10.0%",best test MSE
+B_2d,snip,pruning,12,40.34638977050781,1.4707449852231107,30.0,"pruned, sparsity=30.0%",best compression (<=1.5x baseline MSE)
+B_2d,imp_rewind,pruning,15,36.66655731201172,1.3366042314759077,10.0,"pruned, sparsity=10.0%",best test MSE
+B_2d,imp_rewind,pruning,11,40.35476303100586,1.4710502152810543,30.0,"pruned, sparsity=30.0%",best compression (<=1.5x baseline MSE)
+B_3d,baseline,baseline,31,622.8125610351562,1.0,0.0,1x6 tanh,tanh HPO baseline
+B_3d,obd,pruning,24,624.1785278320312,1.002193222941112,20.0,"pruned, sparsity=20.0%",best test MSE
+B_3d,obd,pruning,9,847.61865234375,1.3609530465072042,70.0,"pruned, sparsity=70.0%",best compression (<=1.5x baseline MSE)
+B_3d,obs,pruning,27,624.4478759765625,1.0026256935773554,10.0,"pruned, sparsity=10.0%",best test MSE
+B_3d,obs,pruning,15,804.1114501953125,1.2910970338472707,50.0,"pruned, sparsity=50.0%",best compression (<=1.5x baseline MSE)
+B_3d,mag,pruning,27,891.8285522460938,1.4319373243914908,10.0,"pruned, sparsity=10.0%",best test MSE
+B_3d,mag,pruning,27,891.8285522460938,1.4319373243914908,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+B_3d,struct,pruning,26,1439.462158203125,2.311228527264515,10.0,"pruned, sparsity=10.0%",best test MSE
+B_3d,activ,pruning,26,624.7782592773438,1.0031561634513606,10.0,"pruned, sparsity=10.0%",best test MSE
+B_3d,activ,pruning,26,624.7782592773438,1.0031561634513606,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+B_3d,redundancy,pruning,24,995.9406127929688,1.5991016801871316,20.0,"pruned, sparsity=20.0%",best test MSE
+B_3d,lowrank,pruning,41,622.8082275390625,0.9999930420541189,0.0,"pruned, sparsity=0.0%",best test MSE
+B_3d,lowrank,pruning,41,622.8082275390625,0.9999930420541189,0.0,"pruned, sparsity=0.0%",best compression (<=1.5x baseline MSE)
+B_3d,taylor_fo,pruning,24,624.1785278320312,1.002193222941112,20.0,"pruned, sparsity=20.0%",best test MSE
+B_3d,taylor_fo,pruning,12,631.9707641601562,1.0147045896277018,60.0,"pruned, sparsity=60.0%",best compression (<=1.5x baseline MSE)
+B_3d,snip,pruning,28,1337.7176513671875,2.1478655619016593,10.0,"pruned, sparsity=10.0%",best test MSE
+B_3d,imp_rewind,pruning,15,1335.026611328125,2.1435447755087362,50.0,"pruned, sparsity=50.0%",best test MSE
+D,baseline,baseline,13,0.009309850633144379,1.0,0.0,1x4 tanh,tanh HPO baseline
+D,obd,pruning,9,0.012274856679141521,1.3184805173394838,30.0,"pruned, sparsity=30.0%",best test MSE
+D,obd,pruning,9,0.012274856679141521,1.3184805173394838,30.0,"pruned, sparsity=30.0%",best compression (<=1.5x baseline MSE)
+D,obs,pruning,11,0.01042761467397213,1.1200625106538609,10.0,"pruned, sparsity=10.0%",best test MSE
+D,obs,pruning,10,0.010961456224322319,1.1774040912426664,20.0,"pruned, sparsity=20.0%",best compression (<=1.5x baseline MSE)
+D,mag,pruning,11,0.01800893060863018,1.9343952248294782,10.0,"pruned, sparsity=10.0%",best test MSE
+D,struct,pruning,10,0.01202158723026514,1.2912760584435798,20.0,"pruned, sparsity=20.0%",best test MSE
+D,struct,pruning,7,0.013303827494382858,1.4290054715829017,40.0,"pruned, sparsity=40.0%",best compression (<=1.5x baseline MSE)
+D,activ,pruning,10,0.010800943709909916,1.1601629430505616,20.0,"pruned, sparsity=20.0%",best test MSE
+D,activ,pruning,10,0.010899662971496582,1.170766685846951,10.0,"pruned, sparsity=10.0%",best compression (<=1.5x baseline MSE)
+D,redundancy,pruning,11,0.01800893060863018,1.9343952248294782,10.0,"pruned, sparsity=10.0%",best test MSE
+D,lowrank,pruning,15,0.00930984877049923,0.9999997999274938,0.0,"pruned, sparsity=0.0%",best test MSE
+D,lowrank,pruning,15,0.00930984877049923,0.9999997999274938,0.0,"pruned, sparsity=0.0%",best compression (<=1.5x baseline MSE)
+D,taylor_fo,pruning,10,0.01202158723026514,1.2912760584435798,20.0,"pruned, sparsity=20.0%",best test MSE
+D,taylor_fo,pruning,10,0.01202158723026514,1.2912760584435798,20.0,"pruned, sparsity=20.0%",best compression (<=1.5x baseline MSE)
+D,snip,pruning,12,0.02795184589922428,3.0023946678276205,10.0,"pruned, sparsity=10.0%",best test MSE
+D,imp_rewind,pruning,11,0.6647821068763733,71.40631284777604,10.0,"pruned, sparsity=10.0%",best test MSE

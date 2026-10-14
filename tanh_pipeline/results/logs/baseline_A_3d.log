@@ -1,0 +1,55 @@
+.venv/lib/python3.9/site-packages/optuna/_experimental.py:33: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+.venv/lib/python3.9/site-packages/optuna/_experimental.py:33: ExperimentalWarning: Argument ``group`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+[I 2026-06-11 13:47:55,886] A new study created in memory with name: stage1
+.venv/lib/python3.9/site-packages/optuna/_experimental.py:33: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+.venv/lib/python3.9/site-packages/optuna/_experimental.py:33: ExperimentalWarning: Argument ``group`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+
+=========== Dataset A_3d  | device=cpu ===========
+HPO pool: x.shape=(4000, 3), x range=[-3.000, 3.000]
+
+Using N=1000 subsample for HPO trials (single OOD-flavored split)
+Random IID val split: train=800, val=200
+
+--- stage1: layers=[1, 2] neurons=[4, 6, 8, 10, 12, 16] trials=120 ---
+    trial   1  best=6.7826e+01  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.0015930522616241021, 'weight_decay': 0.0001}
+    trial  12  best=1.1821e-01  params={'n_layers': 2, 'n_neurons': 12, 'activation': 'tanh', 'lr': 0.008015430145656935, 'weight_decay': 0.001}
+    trial  24  best=1.9125e-02  params={'n_layers': 2, 'n_neurons': 12, 'activation': 'tanh', 'lr': 0.009881675787856446, 'weight_decay': 0.001}
+    trial  36  best=1.9125e-02  params={'n_layers': 2, 'n_neurons': 12, 'activation': 'tanh', 'lr': 0.009881675787856446, 'weight_decay': 0.001}
+    trial  48  best=1.6742e-02  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.007256283419425236, 'weight_decay': 0.001}
+    trial  60  best=1.6742e-02  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.007256283419425236, 'weight_decay': 0.001}
+    trial  72  best=1.6742e-02  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.007256283419425236, 'weight_decay': 0.001}
+    trial  84  best=1.6742e-02  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.007256283419425236, 'weight_decay': 0.001}
+    trial  96  best=1.6742e-02  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.007256283419425236, 'weight_decay': 0.001}
+    trial 108  best=1.6742e-02  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.007256283419425236, 'weight_decay': 0.001}
+    trial 120  best=1.6742e-02  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.007256283419425236, 'weight_decay': 0.001}
+  stage1 done in 115.5s (120 trials)
+  best mean val MSE = 1.6742e-02  params={'n_layers': 2, 'n_neurons': 16, 'activation': 'tanh', 'lr': 0.007256283419425236, 'weight_decay': 0.001}  n_params=321
+
+--- stage2: layers=[2, 3] neurons=[12, 16, 24, 32] trials=80 ---
+    trial   1  best=7.9052e-03  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.002148722968526553, 'weight_decay': 0.01}
+    trial   8  best=5.7417e-03  params={'n_layers': 2, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.00550000335063568, 'weight_decay': 1e-05}
+    trial  16  best=3.2472e-03  params={'n_layers': 2, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.007397389890664895, 'weight_decay': 0.0001}
+    trial  24  best=8.5841e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.005032277116364268, 'weight_decay': 0.0001}
+    trial  32  best=7.0779e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.0032415031902903154, 'weight_decay': 0.01}
+    trial  40  best=7.0779e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.0032415031902903154, 'weight_decay': 0.01}
+    trial  48  best=7.0779e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.0032415031902903154, 'weight_decay': 0.01}
+    trial  56  best=6.1211e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.004852893226735362, 'weight_decay': 0.001}
+    trial  64  best=6.1211e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.004852893226735362, 'weight_decay': 0.001}
+    trial  72  best=6.1211e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.004852893226735362, 'weight_decay': 0.001}
+    trial  80  best=6.1211e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.004852893226735362, 'weight_decay': 0.001}
+  stage2 done in 103.1s (80 trials)
+  best mean val MSE = 6.1211e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.004852893226735362, 'weight_decay': 0.001}  n_params=2209
+  noise floor reached (6.1211e-04 <= 0.001). Skipping further stages.
+
+--- selection ---
+  overall best: trial #51  val_mse=6.1211e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.004852893226735362, 'weight_decay': 0.001}  n_params=2209
+  tolerance choice (5% of best, smallest): trial #51  val_mse=6.1211e-04  params={'n_layers': 3, 'n_neurons': 32, 'activation': 'tanh', 'lr': 0.004852893226735362, 'weight_decay': 0.001}  n_params=2209
+
+--- final retrain on full N=4000 pool ---
+  retrain val MSE = 5.6152e-04 after 2000 epochs  | n_params = 2273
+  LOCKED test MSE = 5.7787e-04 (evaluated once)
+  saved -> tanh_pipeline/results/baseline/A_3d/

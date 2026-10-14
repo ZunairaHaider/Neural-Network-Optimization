@@ -1,0 +1,8 @@
+{
+  "method": "redundancy",
+  "dataset": "A",
+  "sparsity_pct": 50.0,
+  "test_mse": 0.000331935822032392,
+  "param_count": 160,
+  "inference_ms": 0.0724
+}

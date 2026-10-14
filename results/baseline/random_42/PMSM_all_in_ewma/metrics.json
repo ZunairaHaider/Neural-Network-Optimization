@@ -1,0 +1,12 @@
+{
+  "config_name": "PMSM_all_in_ewma",
+  "split_mode": "random",
+  "input_dim": 81,
+  "n_params": 13633,
+  "architecture": "3\u00d764 gelu",
+  "test_mse_normalised": 0.000822748988866806,
+  "test_mae_celsius": 0.5535994172096252,
+  "test_rmse_celsius": 0.8143832683563232,
+  "test_max_abs_celsius": 9.550830841064453,
+  "test_r2": 0.9991499185562134
+}

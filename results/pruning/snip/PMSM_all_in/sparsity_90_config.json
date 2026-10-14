@@ -1,0 +1,8 @@
+{
+  "method": "snip",
+  "dataset": "PMSM_all_in",
+  "sparsity_pct": 90.0,
+  "test_mse": 0.007478348910808563,
+  "param_count": 42,
+  "inference_ms": 7.588
+}

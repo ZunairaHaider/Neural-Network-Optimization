@@ -1,0 +1,8 @@
+{
+  "method": "lowrank",
+  "dataset": "PMSM_all_in_ewma",
+  "sparsity_pct": 10.1,
+  "test_mse": 0.0008475203649140894,
+  "param_count": 34178,
+  "inference_ms": 234.4151
+}

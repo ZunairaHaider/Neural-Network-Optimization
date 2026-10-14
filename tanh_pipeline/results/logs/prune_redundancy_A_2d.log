@@ -1,0 +1,40 @@
+Method: REDUNDANCY  |  Dataset: A_2d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/redundancy/A_2d/original_network.png
+Baseline  |  params=65  |  test MSE=2.4704e-05
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+[Redundancy] merged layers.0: 7 <- 11
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A_2d/after_pruning_sparsity_11.png
+     10.0%        58    3.2117e-01  13000.76x      0.091ms  ⚠
+
+── Target sparsity: 20% ──────────────────────
+[Redundancy] merged layers.0: 3 <- 14
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A_2d/after_pruning_sparsity_22.png
+     20.0%        51    4.1421e+00  167670.22x      0.092ms  ⚠
+
+── Target sparsity: 30% ──────────────────────
+[Redundancy] merged layers.0: 8 <- 2
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A_2d/after_pruning_sparsity_31.png
+     30.0%        45    3.3741e+01  1365817.53x      0.091ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+[Redundancy] merged layers.0: 4 <- 5
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A_2d/after_pruning_sparsity_40.png
+     40.0%        39    3.3164e+01  1342471.52x      0.117ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+[Redundancy] merged layers.0: 4 <- 10
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/redundancy/A_2d/after_pruning_sparsity_51.png
+     50.0%        32    4.9845e+03  201767920.38x      0.091ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/redundancy/A_2d/

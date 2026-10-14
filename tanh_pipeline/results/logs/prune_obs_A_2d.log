@@ -1,0 +1,37 @@
+Method: OBS  |  Dataset: A_2d  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/obs/A_2d/original_network.png
+Baseline  |  params=65  |  test MSE=2.4704e-05
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_2d/after_pruning_sparsity_11.png
+     10.0%        58    2.8593e-05      1.16x      0.093ms
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_2d/after_pruning_sparsity_22.png
+     20.0%        51    2.6710e-05      1.08x      0.094ms
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_2d/after_pruning_sparsity_31.png
+     30.0%        45    2.7240e-05      1.10x      0.094ms
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_2d/after_pruning_sparsity_40.png
+     40.0%        39    9.6912e-03    392.29x      0.094ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+tanh_pipeline/pruner.py:302: UserWarning: [OBS] H_reg ill-conditioned (cond=2.91e+10); increasing λ to 1.00e-03.
+  h_inv = obs_mod.compute_hessian_inv(model, x_calib, y_calib, device)
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/obs/A_2d/after_pruning_sparsity_51.png
+     50.0%        32    4.8883e-01  19787.61x      0.125ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/obs/A_2d/

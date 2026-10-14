@@ -1,0 +1,35 @@
+Method: IMP_REWIND  |  Dataset: D  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/imp_rewind/D/original_network.png
+Baseline  |  params=13  |  test MSE=9.3099e-03
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+
+── Target sparsity: 10% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/imp_rewind/D/after_pruning_sparsity_15.png
+     10.0%        11    6.6478e-01     71.41x      0.064ms  ⚠
+
+── Target sparsity: 20% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/imp_rewind/D/after_pruning_sparsity_23.png
+     20.0%        10    7.6340e-01     82.00x      0.064ms  ⚠
+
+── Target sparsity: 30% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/imp_rewind/D/after_pruning_sparsity_31.png
+     30.0%         9    1.7367e+01   1865.49x      0.064ms  ⚠
+
+── Target sparsity: 40% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/imp_rewind/D/after_pruning_sparsity_46.png
+     40.0%         7    1.7359e+01   1864.54x      0.059ms  ⚠
+
+── Target sparsity: 50% ──────────────────────
+  Fine-tuning...
+Topology saved to tanh_pipeline/results/pruning/imp_rewind/D/after_pruning_sparsity_54.png
+     50.0%         6    1.7362e+01   1864.95x      0.065ms  ⚠
+
+MSE > 3.0× baseline at 50% — stopping.
+
+Done. Results → tanh_pipeline/results/pruning/imp_rewind/D/

@@ -1,0 +1,83 @@
+Method: LOWRANK  |  Dataset: D  |  Device: cpu
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/original_network.png
+Baseline  |  params=13  |  test MSE=9.3099e-03
+
+  Sparsity    Params      Test MSE     ΔvBase    Infer ms
+────────────────────────────────────────────────────────────
+[LowRank] Initial decomposition...
+[LowRank] layers.0: 4x1, rank=1
+[LowRank] layers.1: 1x4, rank=1
+
+── Target sparsity: 10% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 10% (0 SV(s) to prune)
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     10.0%        15    9.3098e-03      1.00x      0.065ms
+
+── Target sparsity: 20% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 20% (0 SV(s) to prune)
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     20.0%        15    9.3098e-03      1.00x      0.066ms
+
+── Target sparsity: 30% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 30% (1 SV(s) to prune)
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     30.0%        15    9.3098e-03      1.00x      0.060ms
+
+── Target sparsity: 40% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 40% (1 SV(s) to prune)
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     40.0%        15    9.3098e-03      1.00x      0.066ms
+
+── Target sparsity: 50% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 50% (1 SV(s) to prune)
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     50.0%        15    9.3098e-03      1.00x      0.065ms
+
+── Target sparsity: 60% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 60% (1 SV(s) to prune)
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     60.0%        15    9.3098e-03      1.00x      0.065ms
+
+── Target sparsity: 70% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 70% (1 SV(s) to prune)
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     70.0%        15    9.3098e-03      1.00x      0.065ms
+
+── Target sparsity: 80% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 80% (2 SV(s) to prune)
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     80.0%        15    9.3098e-03      1.00x      0.065ms
+
+── Target sparsity: 90% ──────────────────────
+  [LowRank] Rank sparsity: 0.0% → 90% (2 SV(s) to prune)
+[LowRank] No singular values left to prune.
+[LowRank] No singular values left to prune.
+  [LowRank] Fine-tuning (UV model)...
+  [LowRank] Ranks after step: layers.0:r=1/1, layers.1:r=1/1
+Topology saved to tanh_pipeline/results/pruning/lowrank/D/after_pruning_sparsity_00.png
+     90.0%        15    9.3098e-03      1.00x      0.065ms
+
+Done. Results → tanh_pipeline/results/pruning/lowrank/D/

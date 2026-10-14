@@ -1,0 +1,67 @@
+\NeedsTeXFormat{LaTeX2e}
+\RequirePackage{tumcolors}
+\ProvidesPackage{topmathposter}
+
+
+\definecolorpalette{TopMath} {
+  \definecolor{colorOne}{named}{TUMblue}
+  \definecolor{colorTwo}{named}{TUMivory}
+  \definecolor{colorThree}{named}{TUMorange}
+}
+\usecolorstyle[colorPalette=TopMath]{Germany}
+
+
+\definebackgroundstyle{TopMath}{
+ \draw[draw=none, line width=0pt, bottom color=TUMblue1, top
+     color=TUMblue1] (bottomleft) rectangle ($(topright)-(0,30)$);
+  \draw[draw=none, line width=0pt, bottom color=TUMblue1, top
+     color=white] ($(topright)-(\textwidth,30.1)$) rectangle ($(topright)-(0,13)$);
+  \draw node[anchor=north west] at ($(topright)-(\textwidth,0)$)
+   {
+  %\includegraphics[height=10cm]{M2-Logo-short.png}
+   }
+node[anchor=north east] at ($(topright)-(1,1)$)
+   {\parbox{17cm}{\includegraphics[height=4.3cm]{Logo_TUMblau.png}\\[3mm]
+   %\raggedleft \includegraphics[height=4.8cm]{TUM_Mathe_Logo.png}{\color{white}x~~~}
+  }
+	 %\raisebox{-2.6cm}{\includegraphics[height=7cm]{Logo_uni_augsburg.png}}
+   }
+node[anchor=north east] at ($(topright)-(7,6)$)
+{
+%\includegraphics[height=5cm]{Elitenetzwerk.jpeg}
+};
+}
+\usebackgroundstyle{TopMath}
+\usetitlestyle{Empty}
+
+
+\defineblockstyle{RoundWithLine}{
+    titlewidthscale=1, bodywidthscale=1, titleleft,
+    titleoffsetx=0pt, titleoffsety=0pt, bodyoffsetx=0pt, bodyoffsety=0pt,
+    bodyverticalshift=0pt, roundedcorners=30, linewidth=0.2cm,
+    titleinnersep=1cm, bodyinnersep=1cm
+}{
+    \begin{scope}[line width=\blocklinewidth, rounded corners=\blockroundedcorners]
+       \ifBlockHasTitle %
+           \draw[draw=none, fill=blockbodybgcolor]
+               (blockbody.south west) rectangle (blocktitle.north east);
+           \draw[color=TUMivory, loosely dashed]
+               (blocktitle.south west) - - (blocktitle.south east);%
+       \else
+             \draw[draw=none, fill=blockbodybgcolor]
+                 (blockbody.south west) rectangle (blockbody.north east);
+        \fi
+    \end{scope}
+}
+\useblockstyle{RoundWithLine}
+
+\settitle{ \centering \vbox{
+\centering
+\color{black} {\bfseries \Huge \textbf  \@title \par}
+%\vspace*{1em}
+{\huge \@author \par} \vspace*{1em} {\LARGE \@institute}
+}
+}
+
+
+ \renewcommand{\familydefault}{\sfdefault}
