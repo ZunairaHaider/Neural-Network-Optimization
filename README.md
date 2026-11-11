@@ -27,14 +27,13 @@ synchronous motor (PMSM) from signals the drive already measures.
 ---
 ## 1. Motivation
 
-PMSMs fail at the stator winding when it overheats, but a sensor there is expensive, fragile,
-or mechanically impossible to route. The standard fix is a data-driven estimator that infers
-winding temperature from signals the drive already measures (voltages, currents, speed,
-torque, ambient/coolant temperature). That estimator runs on embedded hardware across
-millions of units, so its parameter count is a direct, recurring hardware cost.
+Permanent Magnet Synchronous Motors (PMSMs) are widely used in modern electric drive systems, where accurate monitoring of the stator winding temperature is important for reliable and efficient operation. Direct temperature measurement at the winding, however, can be difficult because additional sensors increase cost, complexity, and integration effort.
 
-This raises a concrete question: **given a target accuracy, what is the smallest network that
-reaches it, and which method finds that network most reliably?**
+A practical alternative is to estimate the winding temperature from signals that are already available in the drive system, such as voltages, currents, speed, torque, and ambient or coolant temperature.
+
+Since these estimators may be deployed on embedded hardware at large scale, model size and computational cost become important alongside prediction accuracy.
+
+This leads to the central question of our project: **How small can a neural network become while still achieving the required prediction accuracy, and which optimization or pruning method can achieve this most reliably?**
 
 ## 2. Project overview
 
